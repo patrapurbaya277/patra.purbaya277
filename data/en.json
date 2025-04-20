@@ -182,9 +182,6 @@
       "successMessage": "Thank you for your message! I will get back to you soon."
     }
   },
-  "footer": {
-    "copyright": "All rights reserved."
-  },
   "languageSelector": {
     "label": "Language",
     "options": [
@@ -359,8 +356,5 @@
         }
       ]
     }
-  },
-  "footer": {
-    "copyright": "© 2023 Patra Purbaya. All rights reserved."
   }
 } 

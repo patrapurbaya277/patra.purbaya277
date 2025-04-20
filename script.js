@@ -184,7 +184,7 @@ function initializeWebsite() {
     updateContent();
     
     // Set current year in footer
-    document.getElementById('current-year').textContent = new Date().getFullYear();
+    // document.getElementById('current-year').textContent = new Date().getFullYear();
     
     // Initialize AOS (Animate On Scroll) library
     AOS.init({

@@ -1,368 +1,464 @@
 {
-  "lang": "id",
-  "meta": {
-    "title": "Patra Purbaya | Portofolio",
-    "description": "Portofolio pribadi Patra Purbaya, seorang pengembang web"
-  },
-  "navbar": {
-    "brand": "Patra Purbaya",
-    "links": [
-      { "text": "Beranda", "href": "#home" },
-      { "text": "Portofolio", "href": "#portfolio" },
-      { "text": "Tentang", "href": "#about" },
-      { "text": "Kontak", "href": "#contact" }
-    ]
-  },
-  "home": {
-    "name": "Patra Purbaya",
-    "title": "Senior Mobile Flutter Developer",
-    "tagline": "Mengubah ide menjadi pengalaman mobile yang luar biasa untuk Android dan iOS sejak 2020.",
-    "buttons": {
-      "portfolio": "Lihat Karya Saya",
-      "contact": "Hubungi Saya"
+    "lang": "id",
+    "meta": {
+        "title": "Patra Purbaya | Portofolio",
+        "description": "Portofolio pribadi Patra Purbaya, seorang pengembang web"
+    },
+    "navbar": {
+        "brand": "Patra Purbaya",
+        "links": [
+            {
+                "text": "Beranda",
+                "href": "#home"
+            },
+            {
+                "text": "Portofolio",
+                "href": "#portfolio"
+            },
+            {
+                "text": "Tentang",
+                "href": "#about"
+            },
+            {
+                "text": "Kontak",
+                "href": "#contact"
+            }
+        ]
+    },
+    "home": {
+        "name": "Patra Purbaya",
+        "title": "Senior Mobile Flutter Developer",
+        "tagline": "Mengubah ide menjadi pengalaman mobile yang luar biasa untuk Android dan iOS sejak 2020.",
+        "buttons": {
+            "portfolio": "Lihat Karya Saya",
+            "contact": "Hubungi Saya"
+        }
+    },
+    "portfolio": {
+        "title": "Portofolio Saya",
+        "subtitle": "Jelajahi proyek terbaru saya di berbagai platform",
+        "filters": [
+            {
+                "text": "Semua",
+                "filter": "all"
+            },
+            {
+                "text": "Android",
+                "filter": "android"
+            },
+            {
+                "text": "iOS",
+                "filter": "ios"
+            },
+            {
+                "text": "Web",
+                "filter": "web"
+            }
+        ],
+        "projects": [
+            {
+                "title": "Aplikasi Flutter Lintas Platform",
+                "description": "Aplikasi dengan fitur lengkap yang dikembangkan untuk Android dan iOS menggunakan Flutter.",
+                "image": "flutter-cross-platform.png",
+                "tags": [
+                    "Flutter",
+                    "Lintas Platform",
+                    "Firebase"
+                ],
+                "platforms": [
+                    "android",
+                    "ios"
+                ],
+                "links": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "title": "Aplikasi E-Commerce",
+                "description": "Aplikasi e-commerce berbasis Flutter dengan fitur keranjang, pembayaran, dan pelacakan pesanan.",
+                "image": "android-ecommerce.png",
+                "tags": [
+                    "Flutter",
+                    "Android",
+                    "E-Commerce"
+                ],
+                "platforms": [
+                    "android"
+                ],
+                "links": {
+                    "project": ""
+                }
+            },
+            {
+                "title": "Aplikasi Pengiriman Makanan",
+                "description": "Aplikasi iOS untuk pengiriman makanan dengan pelacakan real-time dan integrasi pembayaran.",
+                "image": "ios-food-delivery.png",
+                "tags": [
+                    "Flutter",
+                    "iOS",
+                    "Maps API"
+                ],
+                "platforms": [
+                    "ios"
+                ],
+                "links": {
+                    "project": ""
+                }
+            },
+            {
+                "title": "Website Korporat",
+                "description": "Website korporat responsif yang dibangun dengan teknologi web modern.",
+                "image": "web-corporate.png",
+                "tags": [
+                    "HTML/CSS",
+                    "PHP",
+                    "WordPress"
+                ],
+                "platforms": [
+                    "web"
+                ],
+                "links": {
+                    "project": ""
+                }
+            },
+            {
+                "title": "Aplikasi Keuangan & Blockchain",
+                "description": "Aplikasi keuangan dengan integrasi blockchain untuk transaksi yang aman.",
+                "image": "finance-blockchain.png",
+                "tags": [
+                    "Flutter",
+                    "Blockchain",
+                    "Keuangan"
+                ],
+                "platforms": [
+                    "android",
+                    "ios"
+                ],
+                "links": {
+                    "android": "",
+                    "ios": ""
+                }
+            },
+            {
+                "title": "Portofolio Desain UI/UX",
+                "description": "Kumpulan desain UI/UX yang dibuat dengan Figma untuk berbagai proyek.",
+                "image": "uiux-design.png",
+                "tags": [
+                    "Figma",
+                    "UI/UX",
+                    "Desain"
+                ],
+                "platforms": [
+                    "web"
+                ],
+                "links": {
+                    "project": ""
+                }
+            }
+        ]
+    },
+    "about": {
+        "title": "Tentang Saya",
+        "intro": "Saya Patra Purbaya, Senior Mobile Flutter Developer yang mengkhususkan diri dalam pengembangan Android dan iOS sejak 2020.",
+        "description": "Lulus dengan Diploma III di Teknik Informatika dari Politeknik Negeri Pontianak, saya mendedikasikan karir saya untuk menciptakan pengalaman mobile yang luar biasa yang menggabungkan desain yang indah dengan antarmuka yang fungsional dan ramah pengguna.",
+        "workExperience": {
+            "title": "Pengalaman Kerja",
+            "jobs": [
+                {
+                    "title": "Senior Flutter Mobile App Developer",
+                    "company": "Appsku Aplikasi Indonesia",
+                    "period": "Agustus 2024 - Sekarang"
+                },
+                {
+                    "title": "Flutter Mobile Engineer",
+                    "company": "Qoin Digital Indonesia",
+                    "period": "Juni 2022 - Juni 2024"
+                },
+                {
+                    "title": "Freelancer Mobile & Web Developer",
+                    "company": "Pekerja Lepas",
+                    "period": "Februari 2021 - Juni 2022"
+                },
+                {
+                    "title": "Program Magang",
+                    "company": "CV. Ultima Solusi Digital",
+                    "period": "Desember 2020 - Januari 2021"
+                }
+            ]
+        },
+        "technicalSkills": {
+            "title": "Keahlian Saya",
+            "skills": [
+                {
+                    "name": "Flutter",
+                    "level": 95
+                },
+                {
+                    "name": "Android Native",
+                    "level": 85
+                },
+                {
+                    "name": "iOS Development",
+                    "level": 80
+                },
+                {
+                    "name": "WordPress",
+                    "level": 85
+                },
+                {
+                    "name": "HTML/CSS/PHP",
+                    "level": 85
+                },
+                {
+                    "name": "Figma",
+                    "level": 80
+                },
+                {
+                    "name": "Blockchain",
+                    "level": 75
+                }
+            ]
+        },
+        "softSkills": {
+            "title": "Keterampilan Lunak",
+            "skills": [
+                "Komunikasi",
+                "Kerja Tim",
+                "Pemecahan Masalah",
+                "Bahasa Inggris Percakapan",
+                "Manajemen Waktu",
+                "Adaptabilitas"
+            ]
+        },
+        "cvButton": "Unduh CV",
+        "cvLink": "https://drive.google.com/file/d/1Ecwnod42Dciunoxqsq9yNAl2JSFp_rj2/view"
+    },
+    "contact": {
+        "title": "Hubungi Saya",
+        "subtitle": "Mari diskusikan proyek Anda dan lihat bagaimana saya dapat membantu",
+        "info": {
+            "location": {
+                "title": "Lokasi",
+                "value": "Depok, Indonesia"
+            },
+            "email": {
+                "title": "Email",
+                "value": "patra.purbaya277@gmail.com"
+            },
+            "phone": {
+                "title": "Telepon",
+                "value": "+62 813 5196 3101"
+            }
+        },
+        "socialLinks": [
+            {
+                "platform": "whatsapp",
+                "url": "https://wa.me/6281351963101",
+                "icon": "fab fa-whatsapp"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/patra_purbaya/",
+                "icon": "fab fa-instagram"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/patrapurbaya/",
+                "icon": "fab fa-linkedin"
+            }
+        ],
+        "form": {
+            "namePlaceholder": "Nama Anda",
+            "emailPlaceholder": "Email Anda",
+            "subjectPlaceholder": "Subjek",
+            "messagePlaceholder": "Pesan Anda",
+            "submitButton": "Kirim Pesan",
+            "successMessage": "Terima kasih atas pesan Anda! Saya akan segera menghubungi Anda kembali."
+        }
+    },
+    "languageSelector": {
+        "label": "Bahasa",
+        "options": [
+            {
+                "value": "en",
+                "text": "English"
+            },
+            {
+                "value": "id",
+                "text": "Bahasa Indonesia"
+            },
+            {
+                "value": "ms",
+                "text": "Bahasa Melayu"
+            }
+        ]
+    },
+    "navigation": {
+        "home": "Beranda",
+        "about": "Tentang",
+        "portfolio": "Portofolio",
+        "experience": "Pengalaman",
+        "skills": "Keahlian",
+        "contact": "Kontak"
+    },
+    "heroSection": {
+        "greeting": "Halo, Saya",
+        "name": "Patra Purbaya",
+        "title": "Pengembang Web",
+        "description": "Saya membuat website responsif di mana teknologi bertemu kreativitas.",
+        "ctaButton": "Hubungi Saya"
+    },
+    "aboutSection": {
+        "title": "Tentang Saya",
+        "description": "Saya adalah seorang Pengembang Web yang bersemangat dengan dasar yang kuat dalam teknologi front-end dan back-end. Perjalanan saya dalam pengembangan web dimulai dengan rasa ingin tahu tentang bagaimana website bekerja, dan telah berkembang menjadi karir profesional di mana saya membantu bisnis membangun kehadiran online mereka. Saya senang menciptakan pengalaman web yang intuitif dan responsif yang memecahkan masalah nyata.",
+        "skills": "Keahlian saya meliputi HTML, CSS, JavaScript, React, Node.js, dan banyak lagi."
+    },
+    "portfolioSection": {
+        "title": "Portofolio",
+        "description": "Lihat beberapa proyek terbaru saya",
+        "filters": {
+            "all": "Semua",
+            "web": "Web",
+            "mobile": "Mobile",
+            "design": "Desain"
+        },
+        "items": [
+            {
+                "id": 1,
+                "title": "Website E-commerce",
+                "category": "web",
+                "image": "assets/images/portfolio/portfolio-1.jpg",
+                "description": "Website e-commerce yang lengkap dengan integrasi keranjang belanja dan pembayaran.",
+                "technologies": "HTML, CSS, JavaScript, Node.js",
+                "link": "#"
+            },
+            {
+                "id": 2,
+                "title": "Aplikasi Pemesanan Restoran",
+                "category": "mobile",
+                "image": "assets/images/portfolio/portfolio-2.jpg",
+                "description": "Aplikasi mobile untuk memesan meja restoran dan memesan makanan.",
+                "technologies": "React Native, Firebase",
+                "link": "#"
+            },
+            {
+                "id": 3,
+                "title": "Redesain Website Perusahaan",
+                "category": "design",
+                "image": "assets/images/portfolio/portfolio-3.jpg",
+                "description": "Redesain lengkap website perusahaan yang berfokus pada pengalaman pengguna.",
+                "technologies": "Figma, Adobe XD",
+                "link": "#"
+            },
+            {
+                "id": 4,
+                "title": "Dashboard Keuangan Pribadi",
+                "category": "web",
+                "image": "assets/images/portfolio/portfolio-4.jpg",
+                "description": "Dashboard interaktif untuk melacak keuangan pribadi dan investasi.",
+                "technologies": "React, D3.js, Firebase",
+                "link": "#"
+            }
+        ]
+    },
+    "experienceSection": {
+        "title": "Pengalaman Kerja",
+        "description": "Perjalanan profesional saya sejauh ini",
+        "experiences": [
+            {
+                "company": "Tech Solutions Inc.",
+                "position": "Pengembang Web Senior",
+                "period": "2020 - Sekarang",
+                "description": "Memimpin pengembangan aplikasi web untuk berbagai klien. Mengelola tim pengembang junior dan menerapkan praktik terbaik."
+            },
+            {
+                "company": "Digital Agency XYZ",
+                "position": "Pengembang Web",
+                "period": "2018 - 2020",
+                "description": "Mengembangkan website responsif untuk klien di berbagai industri. Berkolaborasi dengan desainer untuk mengimplementasikan elemen visual."
+            },
+            {
+                "company": "Startup Hub",
+                "position": "Pengembang Junior",
+                "period": "2016 - 2018",
+                "description": "Membantu dalam pengembangan aplikasi web. Mempelajari berbagai teknologi dan berkontribusi pada perbaikan kode."
+            }
+        ]
+    },
+    "skillsSection": {
+        "title": "Keahlian",
+        "description": "Teknologi yang saya kuasai",
+        "technical": {
+            "title": "Keahlian Teknis",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "level": 90
+                },
+                {
+                    "name": "CSS",
+                    "level": 85
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 80
+                },
+                {
+                    "name": "React",
+                    "level": 75
+                },
+                {
+                    "name": "Node.js",
+                    "level": 70
+                },
+                {
+                    "name": "PHP",
+                    "level": 65
+                }
+            ]
+        },
+        "soft": {
+            "title": "Soft Skills",
+            "skills": [
+                "Pemecahan Masalah",
+                "Komunikasi",
+                "Kerja Tim",
+                "Manajemen Waktu",
+                "Adaptabilitas",
+                "Kreativitas"
+            ]
+        }
+    },
+    "contactSection": {
+        "title": "Hubungi Saya",
+        "description": "Jangan ragu untuk menghubungi saya untuk pertanyaan atau peluang kolaborasi.",
+        "formLabels": {
+            "name": "Nama Anda",
+            "email": "Email Anda",
+            "subject": "Subjek",
+            "message": "Pesan",
+            "submit": "Kirim Pesan"
+        },
+        "socialLinks": {
+            "title": "Temukan saya di",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "icon": "fab fa-github",
+                    "url": "https://github.com/"
+                },
+                {
+                    "name": "LinkedIn",
+                    "icon": "fab fa-linkedin",
+                    "url": "https://linkedin.com/"
+                },
+                {
+                    "name": "Twitter",
+                    "icon": "fab fa-twitter",
+                    "url": "https://twitter.com/"
+                }
+            ]
+        }
     }
-  },
-  "portfolio": {
-    "title": "Portofolio Saya",
-    "subtitle": "Jelajahi proyek terbaru saya di berbagai platform",
-    "filters": [
-      { "text": "Semua", "filter": "all" },
-      { "text": "Android", "filter": "android" },
-      { "text": "iOS", "filter": "ios" },
-      { "text": "Web", "filter": "web" }
-    ],
-    "projects": [
-      {
-        "title": "Aplikasi Flutter Lintas Platform",
-        "description": "Aplikasi dengan fitur lengkap yang dikembangkan untuk Android dan iOS menggunakan Flutter.",
-        "image": "flutter-cross-platform.png",
-        "tags": ["Flutter", "Lintas Platform", "Firebase"],
-        "platforms": ["android", "ios"],
-        "links": {
-          "android": "",
-          "ios": ""
-        }
-      },
-      {
-        "title": "Aplikasi E-Commerce",
-        "description": "Aplikasi e-commerce berbasis Flutter dengan fitur keranjang, pembayaran, dan pelacakan pesanan.",
-        "image": "android-ecommerce.png",
-        "tags": ["Flutter", "Android", "E-Commerce"],
-        "platforms": ["android"],
-        "links": {
-          "project": ""
-        }
-      },
-      {
-        "title": "Aplikasi Pengiriman Makanan",
-        "description": "Aplikasi iOS untuk pengiriman makanan dengan pelacakan real-time dan integrasi pembayaran.",
-        "image": "ios-food-delivery.png",
-        "tags": ["Flutter", "iOS", "Maps API"],
-        "platforms": ["ios"],
-        "links": {
-          "project": ""
-        }
-      },
-      {
-        "title": "Website Korporat",
-        "description": "Website korporat responsif yang dibangun dengan teknologi web modern.",
-        "image": "web-corporate.png",
-        "tags": ["HTML/CSS", "PHP", "WordPress"],
-        "platforms": ["web"],
-        "links": {
-          "project": ""
-        }
-      },
-      {
-        "title": "Aplikasi Keuangan & Blockchain",
-        "description": "Aplikasi keuangan dengan integrasi blockchain untuk transaksi yang aman.",
-        "image": "finance-blockchain.png",
-        "tags": ["Flutter", "Blockchain", "Keuangan"],
-        "platforms": ["android", "ios"],
-        "links": {
-          "android": "",
-          "ios": ""
-        }
-      },
-      {
-        "title": "Portofolio Desain UI/UX",
-        "description": "Kumpulan desain UI/UX yang dibuat dengan Figma untuk berbagai proyek.",
-        "image": "uiux-design.png",
-        "tags": ["Figma", "UI/UX", "Desain"],
-        "platforms": ["web"],
-        "links": {
-          "project": ""
-        }
-      }
-    ]
-  },
-  "about": {
-    "title": "Tentang Saya",
-    "intro": "Saya Patra Purbaya, Senior Mobile Flutter Developer yang mengkhususkan diri dalam pengembangan Android dan iOS sejak 2020.",
-    "description": "Lulus dengan Diploma III di Teknik Informatika dari Politeknik Negeri Pontianak, saya mendedikasikan karir saya untuk menciptakan pengalaman mobile yang luar biasa yang menggabungkan desain yang indah dengan antarmuka yang fungsional dan ramah pengguna.",
-    "workExperience": {
-      "title": "Pengalaman Kerja",
-      "jobs": [
-        {
-          "title": "Senior Flutter Mobile App Developer",
-          "company": "Appsku Aplikasi Indonesia",
-          "period": "Agustus 2024 - Sekarang"
-        },
-        {
-          "title": "Flutter Mobile Engineer",
-          "company": "Qoin Digital Indonesia",
-          "period": "Juni 2022 - Juni 2024"
-        },
-        {
-          "title": "Freelancer Mobile & Web Developer",
-          "company": "Pekerja Lepas",
-          "period": "Februari 2021 - Juni 2022"
-        },
-        {
-          "title": "Program Magang",
-          "company": "CV. Ultima Solusi Digital",
-          "period": "Desember 2020 - Januari 2021"
-        }
-      ]
-    },
-    "technicalSkills": {
-      "title": "Keahlian Saya",
-      "skills": [
-        { "name": "Flutter", "level": 95 },
-        { "name": "Android Native", "level": 85 },
-        { "name": "iOS Development", "level": 80 },
-        { "name": "WordPress", "level": 85 },
-        { "name": "HTML/CSS/PHP", "level": 85 },
-        { "name": "Figma", "level": 80 },
-        { "name": "Blockchain", "level": 75 }
-      ]
-    },
-    "softSkills": {
-      "title": "Keterampilan Lunak",
-      "skills": [
-        "Komunikasi",
-        "Kerja Tim",
-        "Pemecahan Masalah",
-        "Bahasa Inggris Percakapan",
-        "Manajemen Waktu",
-        "Adaptabilitas"
-      ]
-    },
-    "cvButton": "Unduh CV",
-    "cvLink": "https://drive.google.com/file/d/1Ecwnod42Dciunoxqsq9yNAl2JSFp_rj2/view"
-  },
-  "contact": {
-    "title": "Hubungi Saya",
-    "subtitle": "Mari diskusikan proyek Anda dan lihat bagaimana saya dapat membantu",
-    "info": {
-      "location": {
-        "title": "Lokasi",
-        "value": "Depok, Indonesia"
-      },
-      "email": {
-        "title": "Email",
-        "value": "patra.purbaya277@gmail.com"
-      },
-      "phone": {
-        "title": "Telepon",
-        "value": "+62 813 5196 3101"
-      }
-    },
-    "socialLinks": [
-      { "platform": "whatsapp", "url": "https://wa.me/6281351963101", "icon": "fab fa-whatsapp" },
-      { "platform": "instagram", "url": "https://www.instagram.com/patra_purbaya/", "icon": "fab fa-instagram" },
-      { "platform": "linkedin", "url": "https://www.linkedin.com/in/patrapurbaya/", "icon": "fab fa-linkedin" }
-    ],
-    "form": {
-      "namePlaceholder": "Nama Anda",
-      "emailPlaceholder": "Email Anda",
-      "subjectPlaceholder": "Subjek",
-      "messagePlaceholder": "Pesan Anda",
-      "submitButton": "Kirim Pesan",
-      "successMessage": "Terima kasih atas pesan Anda! Saya akan segera menghubungi Anda kembali."
-    }
-  },
-  "footer": {
-    "copyright": "Semua hak dilindungi.",
-    "credits": "Dirancang dengan ❤️ oleh Patra Purbaya"
-  },
-  "languageSelector": {
-    "label": "Bahasa",
-    "options": [
-      { "value": "en", "text": "English" },
-      { "value": "id", "text": "Bahasa Indonesia" },
-      { "value": "ms", "text": "Bahasa Melayu" }
-    ]
-  },
-  "navigation": {
-    "home": "Beranda",
-    "about": "Tentang",
-    "portfolio": "Portofolio",
-    "experience": "Pengalaman",
-    "skills": "Keahlian",
-    "contact": "Kontak"
-  },
-  "heroSection": {
-    "greeting": "Halo, Saya",
-    "name": "Patra Purbaya",
-    "title": "Pengembang Web",
-    "description": "Saya membuat website responsif di mana teknologi bertemu kreativitas.",
-    "ctaButton": "Hubungi Saya"
-  },
-  "aboutSection": {
-    "title": "Tentang Saya",
-    "description": "Saya adalah seorang Pengembang Web yang bersemangat dengan dasar yang kuat dalam teknologi front-end dan back-end. Perjalanan saya dalam pengembangan web dimulai dengan rasa ingin tahu tentang bagaimana website bekerja, dan telah berkembang menjadi karir profesional di mana saya membantu bisnis membangun kehadiran online mereka. Saya senang menciptakan pengalaman web yang intuitif dan responsif yang memecahkan masalah nyata.",
-    "skills": "Keahlian saya meliputi HTML, CSS, JavaScript, React, Node.js, dan banyak lagi."
-  },
-  "portfolioSection": {
-    "title": "Portofolio",
-    "description": "Lihat beberapa proyek terbaru saya",
-    "filters": {
-      "all": "Semua",
-      "web": "Web",
-      "mobile": "Mobile",
-      "design": "Desain"
-    },
-    "items": [
-      {
-        "id": 1,
-        "title": "Website E-commerce",
-        "category": "web",
-        "image": "assets/images/portfolio/portfolio-1.jpg",
-        "description": "Website e-commerce yang lengkap dengan integrasi keranjang belanja dan pembayaran.",
-        "technologies": "HTML, CSS, JavaScript, Node.js",
-        "link": "#"
-      },
-      {
-        "id": 2,
-        "title": "Aplikasi Pemesanan Restoran",
-        "category": "mobile",
-        "image": "assets/images/portfolio/portfolio-2.jpg",
-        "description": "Aplikasi mobile untuk memesan meja restoran dan memesan makanan.",
-        "technologies": "React Native, Firebase",
-        "link": "#"
-      },
-      {
-        "id": 3,
-        "title": "Redesain Website Perusahaan",
-        "category": "design",
-        "image": "assets/images/portfolio/portfolio-3.jpg",
-        "description": "Redesain lengkap website perusahaan yang berfokus pada pengalaman pengguna.",
-        "technologies": "Figma, Adobe XD",
-        "link": "#"
-      },
-      {
-        "id": 4,
-        "title": "Dashboard Keuangan Pribadi",
-        "category": "web",
-        "image": "assets/images/portfolio/portfolio-4.jpg",
-        "description": "Dashboard interaktif untuk melacak keuangan pribadi dan investasi.",
-        "technologies": "React, D3.js, Firebase",
-        "link": "#"
-      }
-    ]
-  },
-  "experienceSection": {
-    "title": "Pengalaman Kerja",
-    "description": "Perjalanan profesional saya sejauh ini",
-    "experiences": [
-      {
-        "company": "Tech Solutions Inc.",
-        "position": "Pengembang Web Senior",
-        "period": "2020 - Sekarang",
-        "description": "Memimpin pengembangan aplikasi web untuk berbagai klien. Mengelola tim pengembang junior dan menerapkan praktik terbaik."
-      },
-      {
-        "company": "Digital Agency XYZ",
-        "position": "Pengembang Web",
-        "period": "2018 - 2020",
-        "description": "Mengembangkan website responsif untuk klien di berbagai industri. Berkolaborasi dengan desainer untuk mengimplementasikan elemen visual."
-      },
-      {
-        "company": "Startup Hub",
-        "position": "Pengembang Junior",
-        "period": "2016 - 2018",
-        "description": "Membantu dalam pengembangan aplikasi web. Mempelajari berbagai teknologi dan berkontribusi pada perbaikan kode."
-      }
-    ]
-  },
-  "skillsSection": {
-    "title": "Keahlian",
-    "description": "Teknologi yang saya kuasai",
-    "technical": {
-      "title": "Keahlian Teknis",
-      "skills": [
-        {
-          "name": "HTML",
-          "level": 90
-        },
-        {
-          "name": "CSS",
-          "level": 85
-        },
-        {
-          "name": "JavaScript",
-          "level": 80
-        },
-        {
-          "name": "React",
-          "level": 75
-        },
-        {
-          "name": "Node.js",
-          "level": 70
-        },
-        {
-          "name": "PHP",
-          "level": 65
-        }
-      ]
-    },
-    "soft": {
-      "title": "Soft Skills",
-      "skills": [
-        "Pemecahan Masalah",
-        "Komunikasi",
-        "Kerja Tim",
-        "Manajemen Waktu",
-        "Adaptabilitas",
-        "Kreativitas"
-      ]
-    }
-  },
-  "contactSection": {
-    "title": "Hubungi Saya",
-    "description": "Jangan ragu untuk menghubungi saya untuk pertanyaan atau peluang kolaborasi.",
-    "formLabels": {
-      "name": "Nama Anda",
-      "email": "Email Anda",
-      "subject": "Subjek",
-      "message": "Pesan",
-      "submit": "Kirim Pesan"
-    },
-    "socialLinks": {
-      "title": "Temukan saya di",
-      "links": [
-        {
-          "name": "GitHub",
-          "icon": "fab fa-github",
-          "url": "https://github.com/"
-        },
-        {
-          "name": "LinkedIn",
-          "icon": "fab fa-linkedin",
-          "url": "https://linkedin.com/"
-        },
-        {
-          "name": "Twitter",
-          "icon": "fab fa-twitter",
-          "url": "https://twitter.com/"
-        }
-      ]
-    }
-  },
-  "footer": {
-    "copyright": "© 2023 Patra Purbaya. Hak cipta dilindungi.",
-    "credits": "Dirancang dengan ❤️ oleh Patra Purbaya"
-  }
-} 
+}
