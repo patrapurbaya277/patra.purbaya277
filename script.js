@@ -17,6 +17,38 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error initializing website:', error);
             hideLoadingIndicator();
         });
+
+    // Ensure the offcanvas has proper z-index and transition
+    const offcanvasElement = document.querySelector('.offcanvas');
+    if (offcanvasElement) {
+        offcanvasElement.style.zIndex = "1050"; // Ensure it's above other content
+        
+        // Make sure transition is smooth but not too slow
+        offcanvasElement.style.transition = "transform 0.3s ease-in-out";
+    }
+
+    // Hide preloader after page is fully loaded
+    window.addEventListener('load', function() {
+        const preloader = document.querySelector('.preloader') || document.getElementById('preloader');
+        if (preloader) {
+            // First try to fade it out
+            preloader.style.opacity = '0';
+            preloader.style.transition = 'opacity 0.5s ease';
+            
+            // Then completely remove it after transition
+            setTimeout(function() {
+                preloader.style.display = 'none';
+            }, 500);
+        }
+    });
+    
+    // Failsafe: Hide preloader after 5 seconds even if something went wrong
+    setTimeout(function() {
+        const preloader = document.querySelector('.preloader') || document.getElementById('preloader');
+        if (preloader) {
+            preloader.style.display = 'none';
+        }
+    }, 5000);
 });
 
 // Function to create loading indicator
@@ -85,7 +117,7 @@ function createFallbackData() {
             title: "Senior Mobile Flutter Developer",
             tagline: "Transforming ideas into exceptional mobile experiences for Android and iOS since 2020.",
             buttons: {
-                portfolio: "View My Work",
+                portfolio: "Portofolio",
                 contact: "Contact Me"
             }
         },
@@ -193,7 +225,7 @@ function initializeWebsite() {
         once: true
     });
 
-    Preloader
+    // Preloader
     const preloader = document.createElement('div');
     preloader.className = 'preloader';
     preloader.innerHTML = `
@@ -209,8 +241,8 @@ function initializeWebsite() {
             preloader.style.opacity = '0';
             setTimeout(function() {
                 preloader.style.display = 'none';
-            }, 500);
-        }, 1000);
+            }, 100);
+        }, 500);
     });
 
     // Create particles
