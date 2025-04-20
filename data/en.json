@@ -1,0 +1,368 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "Patra Purbaya | Portfolio",
+    "description": "Personal portfolio of Patra Purbaya, a web developer"
+  },
+  "navbar": {
+    "brand": "Patra Purbaya",
+    "links": [
+      { "text": "Home", "href": "#home" },
+      { "text": "Portfolio", "href": "#portfolio" },
+      { "text": "About", "href": "#about" },
+      { "text": "Contact", "href": "#contact" }
+    ]
+  },
+  "home": {
+    "name": "Patra Purbaya",
+    "title": "Senior Mobile Flutter Developer",
+    "tagline": "Transforming ideas into exceptional mobile experiences for Android and iOS since 2020.",
+    "buttons": {
+      "portfolio": "View My Work",
+      "contact": "Contact Me"
+    }
+  },
+  "portfolio": {
+    "title": "My Portfolio",
+    "subtitle": "Explore my recent projects across different platforms",
+    "filters": [
+      { "text": "All", "filter": "all" },
+      { "text": "Android", "filter": "android" },
+      { "text": "iOS", "filter": "ios" },
+      { "text": "Web", "filter": "web" }
+    ],
+    "projects": [
+      {
+        "title": "Flutter Cross-Platform App",
+        "description": "A feature-rich application developed for both Android and iOS using Flutter.",
+        "image": "flutter-cross-platform.png",
+        "tags": ["Flutter", "Cross-Platform", "Firebase"],
+        "platforms": ["android", "ios"],
+        "links": {
+          "android": "",
+          "ios": ""
+        }
+      },
+      {
+        "title": "E-Commerce App",
+        "description": "A Flutter-based e-commerce application with cart, payment, and order tracking features.",
+        "image": "android-ecommerce.png",
+        "tags": ["Flutter", "Android", "E-Commerce"],
+        "platforms": ["android"],
+        "links": {
+          "project": ""
+        }
+      },
+      {
+        "title": "Food Delivery App",
+        "description": "An iOS app for food delivery with real-time tracking and payment integration.",
+        "image": "ios-food-delivery.png",
+        "tags": ["Flutter", "iOS", "Maps API"],
+        "platforms": ["ios"],
+        "links": {
+          "project": ""
+        }
+      },
+      {
+        "title": "Corporate Website",
+        "description": "A responsive corporate website built with modern web technologies.",
+        "image": "web-corporate.png",
+        "tags": ["HTML/CSS", "PHP", "WordPress"],
+        "platforms": ["web"],
+        "links": {
+          "project": ""
+        }
+      },
+      {
+        "title": "Finance & Blockchain App",
+        "description": "A financial application with blockchain integration for secure transactions.",
+        "image": "finance-blockchain.png",
+        "tags": ["Flutter", "Blockchain", "Finance"],
+        "platforms": ["android", "ios"],
+        "links": {
+          "android": "",
+          "ios": ""
+        }
+      },
+      {
+        "title": "UI/UX Design Portfolio",
+        "description": "A collection of UI/UX designs created with Figma for various projects.",
+        "image": "uiux-design.png",
+        "tags": ["Figma", "UI/UX", "Design"],
+        "platforms": ["web"],
+        "links": {
+          "project": ""
+        }
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm Patra Purbaya, a Senior Mobile Flutter Developer specializing in Android and iOS development since 2020.",
+    "description": "Graduated with a Diploma III in Teknik Informatika from Politeknik Negeri Pontianak, I've dedicated my career to creating exceptional mobile experiences that combine beautiful design with functional, user-friendly interfaces.",
+    "workExperience": {
+      "title": "Work Experience",
+      "jobs": [
+        {
+          "title": "Senior Flutter Mobile App Developer",
+          "company": "Appsku Aplikasi Indonesia",
+          "period": "August 2024 - Present"
+        },
+        {
+          "title": "Flutter Mobile Engineer",
+          "company": "Qoin Digital Indonesia",
+          "period": "June 2022 - June 2024"
+        },
+        {
+          "title": "Freelancer Mobile & Web Developer",
+          "company": "Self-employed",
+          "period": "February 2021 - June 2022"
+        },
+        {
+          "title": "Internship Program",
+          "company": "CV. Ultima Solusi Digital",
+          "period": "December 2020 - January 2021"
+        }
+      ]
+    },
+    "technicalSkills": {
+      "title": "My Skills",
+      "skills": [
+        { "name": "Flutter", "level": 95 },
+        { "name": "Android Native", "level": 85 },
+        { "name": "iOS Development", "level": 80 },
+        { "name": "WordPress", "level": 85 },
+        { "name": "HTML/CSS/PHP", "level": 85 },
+        { "name": "Figma", "level": 80 },
+        { "name": "Blockchain", "level": 75 }
+      ]
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "skills": [
+        "Communication",
+        "Teamwork",
+        "Problem Solving",
+        "Conversational English",
+        "Time Management",
+        "Adaptability"
+      ]
+    },
+    "cvButton": "Download CV",
+    "cvLink": "https://drive.google.com/file/d/1Ecwnod42Dciunoxqsq9yNAl2JSFp_rj2/view"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's discuss your project and see how I can help",
+    "info": {
+      "location": {
+        "title": "Location",
+        "value": "Depok, Indonesia"
+      },
+      "email": {
+        "title": "Email",
+        "value": "patra.purbaya277@gmail.com"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+62 813 5196 3101"
+      }
+    },
+    "socialLinks": [
+      { "platform": "whatsapp", "url": "https://wa.me/6281351963101", "icon": "fab fa-whatsapp" },
+      { "platform": "instagram", "url": "https://www.instagram.com/patra_purbaya/", "icon": "fab fa-instagram" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/patrapurbaya/", "icon": "fab fa-linkedin" }
+    ],
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Your Message",
+      "submitButton": "Send Message",
+      "successMessage": "Thank you for your message! I will get back to you soon."
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "credits": "Designed with ❤️ by Patra Purbaya"
+  },
+  "languageSelector": {
+    "label": "Language",
+    "options": [
+      { "value": "en", "text": "English" },
+      { "value": "id", "text": "Bahasa Indonesia" },
+      { "value": "ms", "text": "Bahasa Melayu" }
+    ]
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "heroSection": {
+    "greeting": "Hello, I'm",
+    "name": "Patra Purbaya",
+    "title": "Web Developer",
+    "description": "I craft responsive websites where technology meets creativity.",
+    "ctaButton": "Contact Me"
+  },
+  "aboutSection": {
+    "title": "About Me",
+    "description": "I'm a passionate Web Developer with a strong foundation in both front-end and back-end technologies. My journey in web development started with a curiosity about how websites work, and has evolved into a professional career where I help businesses establish their online presence. I enjoy creating intuitive, responsive web experiences that solve real problems.",
+    "skills": "My skills include HTML, CSS, JavaScript, React, Node.js, and more."
+  },
+  "portfolioSection": {
+    "title": "Portfolio",
+    "description": "Check out some of my recent projects",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "design": "Design"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "E-commerce Website",
+        "category": "web",
+        "image": "assets/images/portfolio/portfolio-1.jpg",
+        "description": "A fully functional e-commerce website with shopping cart and payment integration.",
+        "technologies": "HTML, CSS, JavaScript, Node.js",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "title": "Restaurant Booking App",
+        "category": "mobile",
+        "image": "assets/images/portfolio/portfolio-2.jpg",
+        "description": "Mobile app for booking restaurant tables and ordering food.",
+        "technologies": "React Native, Firebase",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "title": "Corporate Website Redesign",
+        "category": "design",
+        "image": "assets/images/portfolio/portfolio-3.jpg",
+        "description": "Complete redesign of a corporate website focusing on user experience.",
+        "technologies": "Figma, Adobe XD",
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "title": "Personal Finance Dashboard",
+        "category": "web",
+        "image": "assets/images/portfolio/portfolio-4.jpg",
+        "description": "Interactive dashboard for tracking personal finances and investments.",
+        "technologies": "React, D3.js, Firebase",
+        "link": "#"
+      }
+    ]
+  },
+  "experienceSection": {
+    "title": "Work Experience",
+    "description": "My professional journey so far",
+    "experiences": [
+      {
+        "company": "Tech Solutions Inc.",
+        "position": "Senior Web Developer",
+        "period": "2020 - Present",
+        "description": "Lead development of web applications for various clients. Manage team of junior developers and implement best practices."
+      },
+      {
+        "company": "Digital Agency XYZ",
+        "position": "Web Developer",
+        "period": "2018 - 2020",
+        "description": "Developed responsive websites for clients across different industries. Collaborated with designers to implement visual elements."
+      },
+      {
+        "company": "Startup Hub",
+        "position": "Junior Developer",
+        "period": "2016 - 2018",
+        "description": "Assisted in development of web applications. Learned various technologies and contributed to codebase improvements."
+      }
+    ]
+  },
+  "skillsSection": {
+    "title": "Skills",
+    "description": "Technologies I work with",
+    "technical": {
+      "title": "Technical Skills",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": 90
+        },
+        {
+          "name": "CSS",
+          "level": 85
+        },
+        {
+          "name": "JavaScript",
+          "level": 80
+        },
+        {
+          "name": "React",
+          "level": 75
+        },
+        {
+          "name": "Node.js",
+          "level": 70
+        },
+        {
+          "name": "PHP",
+          "level": 65
+        }
+      ]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "skills": [
+        "Problem Solving",
+        "Communication",
+        "Teamwork",
+        "Time Management",
+        "Adaptability",
+        "Creativity"
+      ]
+    }
+  },
+  "contactSection": {
+    "title": "Contact Me",
+    "description": "Feel free to reach out to me for any inquiries or collaboration opportunities.",
+    "formLabels": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "socialLinks": {
+      "title": "Find me on",
+      "links": [
+        {
+          "name": "GitHub",
+          "icon": "fab fa-github",
+          "url": "https://github.com/"
+        },
+        {
+          "name": "LinkedIn",
+          "icon": "fab fa-linkedin",
+          "url": "https://linkedin.com/"
+        },
+        {
+          "name": "Twitter",
+          "icon": "fab fa-twitter",
+          "url": "https://twitter.com/"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2023 Patra Purbaya. All rights reserved.",
+    "credits": "Designed with ❤️ by Patra Purbaya"
+  }
+} 

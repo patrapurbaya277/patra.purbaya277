@@ -1,0 +1,197 @@
+{
+  "lang": "ms",
+  "meta": {
+    "title": "Patra Purbaya | Portfolio",
+    "description": "Portfolio peribadi Patra Purbaya, seorang pembangun aplikasi mudah alih"
+  },
+  "navbar": {
+    "brand": "Patra Purbaya",
+    "links": [
+      { "text": "Laman Utama", "href": "#home" },
+      { "text": "Portfolio", "href": "#portfolio" },
+      { "text": "Tentang Saya", "href": "#about" },
+      { "text": "Hubungi", "href": "#contact" }
+    ]
+  },
+  "home": {
+    "name": "Patra Purbaya",
+    "title": "Pembangun Aplikasi Flutter Mudah Alih Kanan",
+    "tagline": "Mengubah idea menjadi pengalaman mudah alih yang luar biasa untuk Android dan iOS sejak 2020.",
+    "buttons": {
+      "portfolio": "Lihat Karya Saya",
+      "contact": "Hubungi Saya"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio Saya",
+    "subtitle": "Terokai projek-projek terbaru saya di pelbagai platform",
+    "filters": [
+      { "text": "Semua", "filter": "all" },
+      { "text": "Android", "filter": "android" },
+      { "text": "iOS", "filter": "ios" },
+      { "text": "Web", "filter": "web" }
+    ],
+    "projects": [
+      {
+        "title": "Aplikasi Flutter Silang Platform",
+        "description": "Aplikasi dengan ciri-ciri lengkap yang dibangunkan untuk Android dan iOS menggunakan Flutter.",
+        "image": "flutter-cross-platform.png",
+        "tags": ["Flutter", "Silang Platform", "Firebase"],
+        "platforms": ["android", "ios"],
+        "links": {
+          "android": "",
+          "ios": ""
+        }
+      },
+      {
+        "title": "Aplikasi E-Dagang",
+        "description": "Aplikasi e-dagang berasaskan Flutter dengan ciri-ciri kereta, pembayaran, dan penjejakan pesanan.",
+        "image": "android-ecommerce.png",
+        "tags": ["Flutter", "Android", "E-Dagang"],
+        "platforms": ["android"],
+        "links": {
+          "project": ""
+        }
+      },
+      {
+        "title": "Aplikasi Penghantaran Makanan",
+        "description": "Aplikasi iOS untuk penghantaran makanan dengan penjejakan masa nyata dan integrasi pembayaran.",
+        "image": "ios-food-delivery.png",
+        "tags": ["Flutter", "iOS", "Maps API"],
+        "platforms": ["ios"],
+        "links": {
+          "project": ""
+        }
+      },
+      {
+        "title": "Laman Web Korporat",
+        "description": "Laman web korporat responsif yang dibina dengan teknologi web moden.",
+        "image": "web-corporate.png",
+        "tags": ["HTML/CSS", "PHP", "WordPress"],
+        "platforms": ["web"],
+        "links": {
+          "project": ""
+        }
+      },
+      {
+        "title": "Aplikasi Kewangan & Blockchain",
+        "description": "Aplikasi kewangan dengan integrasi blockchain untuk transaksi yang selamat.",
+        "image": "finance-blockchain.png",
+        "tags": ["Flutter", "Blockchain", "Kewangan"],
+        "platforms": ["android", "ios"],
+        "links": {
+          "android": "",
+          "ios": ""
+        }
+      },
+      {
+        "title": "Portfolio Reka Bentuk UI/UX",
+        "description": "Koleksi reka bentuk UI/UX yang dibuat dengan Figma untuk pelbagai projek.",
+        "image": "uiux-design.png",
+        "tags": ["Figma", "UI/UX", "Reka Bentuk"],
+        "platforms": ["web"],
+        "links": {
+          "project": ""
+        }
+      }
+    ]
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "intro": "Saya Patra Purbaya, Pembangun Aplikasi Flutter Mudah Alih Kanan yang mengkhususkan diri dalam pembangunan Android dan iOS sejak 2020.",
+    "description": "Tamat pengajian dengan Diploma III Teknik Informatika dari Politeknik Negeri Pontianak, saya telah mengabdikan kerjaya saya untuk mencipta pengalaman mudah alih yang luar biasa yang menggabungkan reka bentuk yang indah dengan antara muka yang berfungsi dan mesra pengguna.",
+    "workExperience": {
+      "title": "Pengalaman Kerja",
+      "jobs": [
+        {
+          "title": "Pembangun Aplikasi Mudah Alih Flutter Kanan",
+          "company": "Appsku Aplikasi Indonesia",
+          "period": "Ogos 2024 - Kini"
+        },
+        {
+          "title": "Jurutera Mudah Alih Flutter",
+          "company": "Qoin Digital Indonesia",
+          "period": "Jun 2022 - Jun 2024"
+        },
+        {
+          "title": "Pembangun Bebas Mudah Alih & Web",
+          "company": "Pekerja Bebas",
+          "period": "Februari 2021 - Jun 2022"
+        },
+        {
+          "title": "Program Latihan Industri",
+          "company": "CV. Ultima Solusi Digital",
+          "period": "Disember 2020 - Januari 2021"
+        }
+      ]
+    },
+    "technicalSkills": {
+      "title": "Kemahiran Saya",
+      "skills": [
+        { "name": "Flutter", "level": 95 },
+        { "name": "Android Native", "level": 85 },
+        { "name": "Pembangunan iOS", "level": 80 },
+        { "name": "WordPress", "level": 85 },
+        { "name": "HTML/CSS/PHP", "level": 85 },
+        { "name": "Figma", "level": 80 },
+        { "name": "Blockchain", "level": 75 }
+      ]
+    },
+    "softSkills": {
+      "title": "Kemahiran Insaniah",
+      "skills": [
+        "Komunikasi",
+        "Kerja Berpasukan",
+        "Penyelesaian Masalah",
+        "Bahasa Inggeris Perbualan",
+        "Pengurusan Masa",
+        "Kebolehsuaian"
+      ]
+    },
+    "cvButton": "Muat Turun CV",
+    "cvLink": "https://drive.google.com/file/d/1Ecwnod42Dciunoxqsq9yNAl2JSFp_rj2/view"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Mari bincangkan projek anda dan lihat bagaimana saya boleh membantu",
+    "info": {
+      "location": {
+        "title": "Lokasi",
+        "value": "Depok, Indonesia"
+      },
+      "email": {
+        "title": "E-mel",
+        "value": "patra.purbaya277@gmail.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+62 813 5196 3101"
+      }
+    },
+    "socialLinks": [
+      { "platform": "whatsapp", "url": "https://wa.me/6281351963101", "icon": "fab fa-whatsapp" },
+      { "platform": "instagram", "url": "https://www.instagram.com/patra_purbaya/", "icon": "fab fa-instagram" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/patrapurbaya/", "icon": "fab fa-linkedin" }
+    ],
+    "form": {
+      "namePlaceholder": "Nama Anda",
+      "emailPlaceholder": "E-mel Anda",
+      "subjectPlaceholder": "Subjek",
+      "messagePlaceholder": "Mesej Anda",
+      "submitButton": "Hantar Mesej",
+      "successMessage": "Terima kasih atas mesej anda! Saya akan menghubungi anda dalam masa terdekat."
+    }
+  },
+  "footer": {
+    "copyright": "Hak cipta terpelihara.",
+    "credits": "Direka dengan ❤️ oleh Patra Purbaya"
+  },
+  "languageSelector": {
+    "label": "Bahasa",
+    "options": [
+      { "value": "en", "text": "English" },
+      { "value": "id", "text": "Bahasa Indonesia" },
+      { "value": "ms", "text": "Bahasa Melayu" }
+    ]
+  }
+} 

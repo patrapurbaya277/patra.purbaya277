@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patra Purbaya | Senior Mobile Flutter Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home" data-i18n="navbar.brand">Patra Purbaya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Navigation links will be loaded dynamically -->
+                </ul>
+                <div class="language-selector dropdown ms-3">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-globe"></i> <span data-i18n="languageSelector.label">Language</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown" id="languageOptions">
+                        <!-- Language options will be loaded dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="display-4 fw-bold text-gradient" data-i18n="home.name">Patra Purbaya</h1>
+                    <h2 class="mb-4" data-i18n="home.title">Senior Mobile Flutter Developer</h2>
+                    <p class="lead mb-4" data-i18n="home.tagline">Transforming ideas into exceptional mobile experiences for Android and iOS since 2020.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#portfolio" class="btn btn-primary btn-lg" data-i18n="home.buttons.portfolio">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg" data-i18n="home.buttons.contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="hero-image-container">
+                        <div class="hero-image">
+                            <img src="images/profile_photo.jpg" alt="Patra Purbaya" class="profile-image">
+                        </div>
+                        <div class="floating-icons">
+                            <div class="floating-icon" style="--delay: 0s;"><i class="fab fa-flutter"></i></div>
+                            <div class="floating-icon" style="--delay: 2s;"><i class="fab fa-android"></i></div>
+                            <div class="floating-icon" style="--delay: 4s;"><i class="fab fa-apple"></i></div>
+                            <div class="floating-icon" style="--delay: 6s;"><i class="fa-solid fa-mobile-screen"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="fw-bold" data-i18n="portfolio.title">My Portfolio</h2>
+                    <p class="lead" data-i18n="portfolio.subtitle">Explore my recent projects across different platforms</p>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-12 mb-4" data-aos="fade-up">
+                    <div class="platform-filter" id="portfolio-filters">
+                        <!-- Portfolio filters will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" id="portfolio-items">
+                <!-- Portfolio items will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-image">
+                        <div class="about-shape"></div>
+                        <div class="about-placeholder">
+                            <img src="images/profile_photo.jpg" alt="Patra Purbaya" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <h2 class="fw-bold mb-4" data-i18n="about.title">About Me</h2>
+                    <p class="lead" data-i18n="about.intro">I'm Patra Purbaya, a Senior Mobile Flutter Developer specializing in Android and iOS development since 2020.</p>
+                    <p data-i18n="about.description">Graduated with a Diploma III in Teknik Informatika from Politeknik Negeri Pontianak, I've dedicated my career to creating exceptional mobile experiences that combine beautiful design with functional, user-friendly interfaces.</p>
+
+                    <div class="work-experience-section mt-5">
+                        <h3 class="mb-4" data-i18n="about.workExperience.title">Work Experience</h3>
+                        <div class="timeline" id="work-experience">
+                            <!-- Work experience items will be loaded dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="skills-section mt-5">
+                        <h3 class="mb-4" data-i18n="about.technicalSkills.title">My Skills</h3>
+                        <div id="technical-skills">
+                            <!-- Technical skills will be loaded dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="soft-skills-section mt-5">
+                        <h3 class="mb-4" data-i18n="about.softSkills.title">Soft Skills</h3>
+                        <div class="soft-skills-container" id="soft-skills">
+                            <!-- Soft skills will be loaded dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="download-cv mt-5">
+                        <a href="#" id="cv-link" class="btn btn-primary btn-lg" data-i18n="about.cvButton">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="fw-bold" data-i18n="contact.title">Get In Touch</h2>
+                    <p class="lead" data-i18n="contact.subtitle">Let's discuss your project and see how I can help</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5 data-i18n="contact.info.location.title">Location</h5>
+                                <p data-i18n="contact.info.location.value">Depok, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 data-i18n="contact.info.email.title">Email</h5>
+                                <p data-i18n="contact.info.email.value">patra.purbaya277@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 data-i18n="contact.info.phone.title">Phone</h5>
+                                <p data-i18n="contact.info.phone.value">+62 813 5196 3101</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links mt-5" id="social-links">
+                        <!-- Social links will be loaded dynamically -->
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100" data-i18n="contact.form.submitButton">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; <span id="current-year"></span> Patra Purbaya. <span data-i18n="footer.copyright">All rights reserved.</span></p>
+                    <p class="mt-2 mb-0"><span data-i18n="footer.credits">Designed with ❤️ by Patra Purbaya</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
