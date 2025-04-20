@@ -183,8 +183,7 @@
     }
   },
   "footer": {
-    "copyright": "All rights reserved.",
-    "credits": "Designed with ❤️ by Patra Purbaya"
+    "copyright": "All rights reserved."
   },
   "languageSelector": {
     "label": "Language",
@@ -362,7 +361,6 @@
     }
   },
   "footer": {
-    "copyright": "© 2023 Patra Purbaya. All rights reserved.",
-    "credits": "Designed with ❤️ by Patra Purbaya"
+    "copyright": "© 2023 Patra Purbaya. All rights reserved."
   }
 } 
