@@ -11,17 +11,17 @@
   "logoStyle": "rounded",
   "screenshots": [],
   "description": {
-    "en": "TODO: Add detailed description in English about Rumah GSI - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Rumah GSI - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Rumah GSI - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "An online fundraising website that allows donors to make digital contributions with campaign management features and donation transparency to build trust and maximize impact.",
+    "id": "Website penggalangan dana online yang memungkinkan donatur melakukan kontribusi secara digital dengan fitur manajemen kampanye dan transparansi donasi untuk membangun kepercayaan dan memaksimalkan dampak.",
+    "ms": "Laman web pengumpulan dana dalam talian yang membolehkan penderma membuat sumbangan secara digital dengan ciri pengurusan kempen dan ketelusan derma untuk membina kepercayaan dan memaksimumkan impak."
   },
   "shortDescription": {
-    "en": "Community and property management website",
-    "id": "Website manajemen komunitas dan properti",
-    "ms": "Laman web pengurusan komuniti dan hartanah"
+    "en": "Online fundraising and donation website",
+    "id": "Website penggalangan dana dan donasi online",
+    "ms": "Laman web pengumpulan dana dan derma dalam talian"
   },
-  "tags": ["Web Development", "Property", "Community", "CMS"],
-  "technologies": ["WordPress", "PHP", "JavaScript", "MySQL"],
+  "tags": ["WordPress", "Non-Profit", "Donation", "Charity"],
+  "technologies": ["WordPress", "PHP"],
   "links": {
     "project": ""
   },

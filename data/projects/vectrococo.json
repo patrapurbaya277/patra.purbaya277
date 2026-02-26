@@ -10,17 +10,17 @@
   "logo": "Web/Logo-Vectrococo.png",
   "screenshots": [],
   "description": {
-    "en": "TODO: Add detailed description in English about Vectrococo - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Vectrococo - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Vectrococo - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A company profile website for a coconut distributor that displays products, distribution network, and company information to expand digital market reach and strengthen brand presence.",
+    "id": "Website company profile untuk perusahaan distributor kelapa yang menampilkan produk, jaringan distribusi, serta informasi perusahaan guna memperluas jangkauan pasar digital dan memperkuat kehadiran brand.",
+    "ms": "Laman web profil syarikat untuk pengedar kelapa yang memaparkan produk, rangkaian pengedaran, serta maklumat syarikat untuk mengembangkan jangkauan pasaran digital dan mengukuhkan kehadiran jenama."
   },
   "shortDescription": {
-    "en": "E-commerce platform for coconut products",
-    "id": "Platform e-commerce untuk produk kelapa",
-    "ms": "Platform e-dagang untuk produk kelapa"
+    "en": "Company profile for coconut distributor",
+    "id": "Profil perusahaan distributor kelapa",
+    "ms": "Profil syarikat pengedar kelapa"
   },
-  "tags": ["E-commerce", "WordPress", "WooCommerce", "Online Store"],
-  "technologies": ["WordPress", "WooCommerce", "PHP", "MySQL"],
+  "tags": ["WordPress", "Business", "Distributor", "Company Profile"],
+  "technologies": ["WordPress", "PHP"],
   "links": {
     "project": ""
   },

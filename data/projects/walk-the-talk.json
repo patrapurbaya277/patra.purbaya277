@@ -10,17 +10,17 @@
   "logo": "Web/Logo-Walk The Talk.png",
   "screenshots": [],
   "description": {
-    "en": "TODO: Add detailed description in English about Walk The Talk - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Walk The Talk - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Walk The Talk - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A company profile website for a new company focused on branding, delivering vision and mission, and presenting services professionally and modernly to establish strong market presence.",
+    "id": "Website company profile untuk perusahaan baru yang difokuskan pada branding, penyampaian visi-misi, serta presentasi layanan secara profesional dan modern untuk membangun kehadiran pasar yang kuat.",
+    "ms": "Laman web profil syarikat untuk syarikat baru yang difokuskan pada penjenamaan, penyampaian visi-misi, serta persembahan perkhidmatan secara profesional dan moden untuk membina kehadiran pasaran yang kukuh."
   },
   "shortDescription": {
-    "en": "Training and consulting company website",
-    "id": "Website perusahaan pelatihan dan konsultasi",
-    "ms": "Laman web syarikat latihan dan perundingan"
+    "en": "Company profile website for new startup",
+    "id": "Website profil perusahaan untuk startup baru",
+    "ms": "Laman web profil syarikat untuk permulaan baru"
   },
-  "tags": ["Corporate Website", "Training", "Consulting", "CMS"],
-  "technologies": ["WordPress", "PHP", "JavaScript", "Bootstrap"],
+  "tags": ["WordPress", "Company Profile", "Branding", "Startup"],
+  "technologies": ["WordPress", "PHP"],
   "links": {
     "project": ""
   },

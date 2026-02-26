@@ -14,17 +14,17 @@
     "Mobile/Obsidian/2.webp"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Obsidian - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Obsidian - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Obsidian - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A gym membership application with membership management features, geolocation-based attendance, fingerprint authentication, and payment gateway integration for digital and real-time membership fee payments with enhanced security.",
+    "id": "Aplikasi membership untuk pengguna gym dengan fitur manajemen keanggotaan, absensi berbasis geolocation, autentikasi fingerprint, serta integrasi payment gateway untuk pembayaran iuran secara digital dan real-time dengan keamanan yang ditingkatkan.",
+    "ms": "Aplikasi keahlian untuk pengguna gim dengan ciri pengurusan keahlian, kehadiran berasaskan geolokasi, pengesahan cap jari, serta integrasi gerbang pembayaran untuk pembayaran yuran secara digital dan masa nyata dengan keselamatan yang dipertingkatkan."
   },
   "shortDescription": {
     "en": "Advanced note-taking and knowledge management",
     "id": "Pencatatan dan manajemen pengetahuan tingkat lanjut",
     "ms": "Pencatatan dan pengurusan pengetahuan lanjutan"
   },
-  "tags": ["Flutter", "Productivity", "Note-taking", "Knowledge Base"],
-  "technologies": ["Flutter", "Dart", "Local Storage", "Markdown"],
+  "tags": ["Flutter", "Fitness", "Membership", "Gym"],
+  "technologies": ["Flutter", "Dart", "Android", "iOS", "Firebase", "Fingerprint Authentication", "Geolocation", "Payment Gateway"],
   "links": {
     "android": "",
     "ios": ""

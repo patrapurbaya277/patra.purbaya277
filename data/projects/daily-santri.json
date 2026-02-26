@@ -13,17 +13,17 @@
     "Mobile/Daily Santri/2.png"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Daily Santri - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Daily Santri - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Daily Santri - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A santri activity management application designed to assist in managing daily activities in Islamic boarding schools. Features include digital attendance, activity logging, attendance monitoring, and structured reporting for administrators to improve operational efficiency and data accuracy. Built with Flutter for Android platform with integrated analytics.",
+    "id": "Aplikasi manajemen aktivitas santri yang dirancang untuk membantu pengelolaan kegiatan harian di lingkungan pesantren. Fitur meliputi absensi digital, pencatatan aktivitas, monitoring kehadiran, serta pelaporan terstruktur untuk pengurus guna meningkatkan efisiensi operasional dan akurasi data. Dibangun dengan Flutter untuk platform Android dengan analytics terintegrasi.",
+    "ms": "Aplikasi pengurusan aktiviti santri yang direka untuk membantu pengurusan aktiviti harian di persekitaran pesantren. Ciri-ciri termasuk kehadiran digital, pencatatan aktiviti, pemantauan kehadiran, serta pelaporan berstruktur untuk pentadbir bagi meningkatkan kecekapan operasi dan ketepatan data. Dibina dengan Flutter untuk platform Android dengan analytics bersepadu."
   },
   "shortDescription": {
     "en": "Islamic learning and daily activities tracker for students",
     "id": "Pembelajaran Islam dan pelacak aktivitas harian untuk santri",
     "ms": "Pembelajaran Islam dan penjejak aktiviti harian untuk pelajar"
   },
-  "tags": ["Flutter", "Education", "Islamic", "Tracker"],
-  "technologies": ["Flutter", "Dart", "SQLite", "Notifications"],
+  "tags": ["Flutter", "Mobile", "Education", "Management"],
+  "technologies": ["Flutter", "Dart", "Android", "Analytics"],
   "links": {
     "android": "",
     "ios": ""

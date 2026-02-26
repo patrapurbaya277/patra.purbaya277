@@ -13,17 +13,17 @@
     "Mobile/Mojarnik/2.png"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Mojarnik - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Mojarnik - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Mojarnik - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "An electronic learning module (e-learning) application for students that supports the distribution of learning materials in digital format with PDF Viewer and an intuitive interface for flexible learning access anytime, anywhere.",
+    "id": "Aplikasi modul pembelajaran elektronik (e-learning) untuk pelajar dan mahasiswa yang mendukung distribusi materi dalam format digital dengan PDF Viewer dan antarmuka yang intuitif untuk akses pembelajaran fleksibel kapan saja, di mana saja.",
+    "ms": "Aplikasi modul pembelajaran elektronik (e-learning) untuk pelajar dan mahasiswa yang menyokong pengedaran bahan dalam format digital dengan PDF Viewer dan antara muka yang intuitif untuk akses pembelajaran fleksibel bila-bila masa, di mana sahaja."
   },
   "shortDescription": {
-    "en": "Social networking and community platform",
-    "id": "Platform jejaring sosial dan komunitas",
-    "ms": "Platform rangkaian sosial dan komuniti"
+    "en": "Electronic learning platform for students",
+    "id": "Platform pembelajaran elektronik untuk pelajar",
+    "ms": "Platform pembelajaran elektronik untuk pelajar"
   },
-  "tags": ["Flutter", "Social Media", "Community", "Chat"],
-  "technologies": ["Flutter", "Dart", "Firebase", "WebSocket"],
+  "tags": ["Flutter", "E-Learning", "Education", "PDF"],
+  "technologies": ["Flutter", "Dart", "Android", "PDF Viewer"],
   "links": {
     "android": "",
     "ios": ""

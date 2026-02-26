@@ -3,9 +3,9 @@
   "category": "mobile",
   "platforms": ["android", "ios"],
   "name": {
-    "en": "Qoin App",
-    "id": "Qoin App",
-    "ms": "Qoin App"
+    "en": "Qoin Digital Indonesia",
+    "id": "Qoin Digital Indonesia",
+    "ms": "Qoin Digital Indonesia"
   },
   "logo": "Mobile/Qoin App/logo.webp",
   "logoStyle": "rounded",
@@ -14,17 +14,17 @@
     "Mobile/Qoin App/2.webp"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Qoin App - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Qoin App - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Qoin App - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A digital wallet (e-wallet) application that supports various financial transactions such as payments, transfers, and QR scanning. Implements face recognition & verification, data encryption, real-time notifications, and infrastructure designed for high security and scalability in financial operations.",
+    "id": "Aplikasi dompet digital (e-wallet) yang mendukung berbagai transaksi finansial seperti pembayaran, transfer, dan pemindaian QR. Mengimplementasikan face recognition & verification, enkripsi data, notifikasi real-time, serta infrastruktur yang dirancang untuk keamanan dan skalabilitas tinggi dalam operasi finansial.",
+    "ms": "Aplikasi dompet digital (e-wallet) yang menyokong pelbagai transaksi kewangan seperti pembayaran, pemindahan, dan pengimbasan QR. Melaksanakan pengecaman & pengesahan muka, penyulitan data, pemberitahuan masa nyata, serta infrastruktur yang direka untuk keselamatan dan kebolehdayaan tinggi dalam operasi kewangan."
   },
   "shortDescription": {
-    "en": "Digital payment and loyalty rewards platform",
-    "id": "Platform pembayaran digital dan reward loyalitas",
-    "ms": "Platform pembayaran digital dan ganjaran kesetiaan"
+    "en": "Digital wallet with fintech features",
+    "id": "Dompet digital dengan fitur fintech",
+    "ms": "Dompet digital dengan ciri fintech"
   },
-  "tags": ["Flutter", "Payment", "Loyalty", "E-Wallet"],
-  "technologies": ["Flutter", "Dart", "Firebase", "REST API"],
+  "tags": ["Flutter", "E-Wallet", "Fintech", "Payment"],
+  "technologies": ["Flutter", "Dart", "Android", "iOS", "Firebase", "Socket", "Push Notification", "Face Recognition & Verification", "Geolocation", "Data Encryption", "E-Wallet & E-Money", "QR Scanner"],
   "links": {
     "android": "https://play.google.com/store/apps/details?id=com.qoin.app",
     "ios": "https://apps.apple.com/id/app/qoin/id1234567890"

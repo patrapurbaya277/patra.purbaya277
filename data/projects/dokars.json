@@ -15,17 +15,17 @@
     "Mobile/Dokars/3.webp"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Dokars - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Dokars - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Dokars - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "Digital membership platform based on cards integrated with various merchants and supporting multiple membership types. Provides member management, transaction validation through QR Scanner, real-time notifications, and geolocation integration for merchant location verification with socket-based communication for instant updates.",
+    "id": "Platform membership digital berbasis kartu yang terintegrasi dengan berbagai merchant dan mendukung beragam tipe keanggotaan. Menyediakan manajemen member, validasi transaksi melalui QR Scanner, notifikasi real-time, serta integrasi geolocation untuk verifikasi lokasi merchant dengan komunikasi berbasis socket untuk update instan.",
+    "ms": "Platform keahlian digital berasaskan kad yang disepadukan dengan pelbagai pedagang dan menyokong pelbagai jenis keahlian. Menyediakan pengurusan ahli, pengesahan transaksi melalui QR Scanner, pemberitahuan masa nyata, serta integrasi geolokasi untuk pengesahan lokasi pedagang dengan komunikasi berasaskan soket untuk kemas kini segera."
   },
   "shortDescription": {
     "en": "Healthcare consultation and telemedicine platform",
     "id": "Platform konsultasi kesehatan dan telemedicine",
     "ms": "Platform perundingan kesihatan dan teleperubatan"
   },
-  "tags": ["Flutter", "Healthcare", "Telemedicine", "Consultation"],
-  "technologies": ["Flutter", "Dart", "Video Call", "Firebase"],
+  "tags": ["Flutter", "Membership", "QR Scanner", "Geolocation"],
+  "technologies": ["Flutter", "Dart", "Android", "iOS", "Firebase", "Socket", "Push Notification", "Geolocation", "QR Scanner"],
   "links": {
     "android": "",
     "ios": ""

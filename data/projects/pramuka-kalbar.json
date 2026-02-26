@@ -10,9 +10,9 @@
   "logo": "Web/Pramuka Kalbar.png",
   "screenshots": ["Web/Pramuka Kalbar.png"],
   "description": {
-    "en": "TODO: Add detailed description in English about Pramuka Kalbar - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Pramuka Kalbar - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Pramuka Kalbar - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "Official profile website of the West Kalimantan Scout organization that presents organizational information, activity news, documentation, and official publications for communication and branding needs.",
+    "id": "Website profil resmi organisasi Pramuka Kalimantan Barat yang menyajikan informasi organisasi, berita kegiatan, dokumentasi, serta publikasi resmi untuk kebutuhan komunikasi dan branding organisasi.",
+    "ms": "Laman web profil rasmi organisasi Pengakap Kalimantan Barat yang mempersembahkan maklumat organisasi, berita aktiviti, dokumentasi, serta penerbitan rasmi untuk keperluan komunikasi dan penjenamaan organisasi."
   },
   "shortDescription": {
     "en": "Scout organization website for West Kalimantan",
@@ -20,7 +20,7 @@
     "ms": "Laman web organisasi pengakap Kalimantan Barat"
   },
   "tags": ["WordPress", "Organization", "News", "Community"],
-  "technologies": ["WordPress", "PHP", "MySQL", "HTML/CSS"],
+  "technologies": ["WordPress", "CMS", "PHP"],
   "links": {
     "project": ""
   },

@@ -13,17 +13,17 @@
     "Mobile/Pikunikku/2.png"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Pikunikku - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Pikunikku - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Pikunikku - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "An online travel package booking application that allows users to select destinations, view package details, and make bookings with a simple and user-friendly flow for convenient travel planning.",
+    "id": "Aplikasi pemesanan paket travel online yang memungkinkan pengguna memilih destinasi, melihat detail paket, serta melakukan pemesanan dengan alur yang sederhana dan user-friendly untuk perencanaan perjalanan yang mudah.",
+    "ms": "Aplikasi tempahan pakej pelancongan dalam talian yang membolehkan pengguna memilih destinasi, melihat butiran pakej, serta membuat tempahan dengan aliran yang mudah dan mesra pengguna untuk perancangan perjalanan yang senang."
   },
   "shortDescription": {
-    "en": "Event planning and picnic organization app",
-    "id": "Aplikasi perencanaan acara dan organisasi piknik",
-    "ms": "Aplikasi perancangan acara dan organisasi berkelah"
+    "en": "Online travel package booking application",
+    "id": "Aplikasi pemesanan paket travel online",
+    "ms": "Aplikasi tempahan pakej pelancongan dalam talian"
   },
-  "tags": ["Flutter", "Event Planning", "Social", "Location"],
-  "technologies": ["Flutter", "Dart", "Maps API", "Firebase"],
+  "tags": ["Flutter", "Travel", "Booking", "Tourism"],
+  "technologies": ["Flutter", "Dart", "Android"],
   "links": {
     "android": "",
     "ios": ""

@@ -13,17 +13,17 @@
     "Mobile/Satind/2.webp"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Satind - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Satind - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Satind - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "Official application of PP. Hima Persis for digital organizational needs with KTA Scan feature for membership verification, member data access, role-based access restrictions, as well as information on work programs, books & journals, organizational news, and institutional history.",
+    "id": "Aplikasi resmi PP. Hima Persis untuk kebutuhan organisasi digital dengan fitur Scan KTA untuk verifikasi keanggotaan, akses data anggota, pembatasan akses berbasis role, serta informasi program kerja, buku & jurnal, berita organisasi, dan sejarah institusi.",
+    "ms": "Aplikasi rasmi PP. Hima Persis untuk keperluan organisasi digital dengan ciri Scan KTA untuk pengesahan keahlian, akses data ahli, sekatan akses berasaskan peranan, serta maklumat program kerja, buku & jurnal, berita organisasi, dan sejarah institusi."
   },
   "shortDescription": {
-    "en": "Industrial safety and compliance monitoring",
-    "id": "Pemantauan keselamatan dan kepatuhan industri",
-    "ms": "Pemantauan keselamatan dan pematuhan industri"
+    "en": "Official organizational app for PP. Hima Persis",
+    "id": "Aplikasi organisasi resmi PP. Hima Persis",
+    "ms": "Aplikasi organisasi rasmi PP. Hima Persis"
   },
-  "tags": ["Flutter", "Safety", "Monitoring", "Compliance"],
-  "technologies": ["Flutter", "Dart", "IoT Integration", "REST API"],
+  "tags": ["Flutter", "Organization", "Membership", "KTA Scan"],
+  "technologies": ["Flutter", "Dart", "QR Scanner"],
   "links": {
     "android": "",
     "ios": ""

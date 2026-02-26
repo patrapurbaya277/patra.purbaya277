@@ -13,17 +13,17 @@
     "Mobile/Eksism/2.webp"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Eksism - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Eksism - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Eksism - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A modular super app that integrates various services in one platform such as membership, marketplace, attendance, and other management features. Designed with scalable architecture and supports real-time communication, notifications, face recognition, geolocation, and QR scanning for verification and transaction needs.",
+    "id": "Super app modular yang mengintegrasikan berbagai layanan dalam satu platform seperti membership, marketplace, absensi, dan fitur manajemen lainnya. Dirancang dengan arsitektur scalable serta mendukung real-time communication, notifikasi, face recognition, geolocation, dan QR scanning untuk kebutuhan verifikasi dan transaksi.",
+    "ms": "Super app modular yang menyepadukan pelbagai perkhidmatan dalam satu platform seperti keahlian, marketplace, kehadiran, dan ciri pengurusan lain. Direka dengan seni bina berskala serta menyokong komunikasi masa nyata, pemberitahuan, pengecaman muka, geolokasi, dan pengimbasan QR untuk keperluan pengesahan dan transaksi."
   },
   "shortDescription": {
-    "en": "Express delivery and logistics management",
-    "id": "Manajemen pengiriman ekspres dan logistik",
-    "ms": "Pengurusan penghantaran ekspres dan logistik"
+    "en": "Modular super app with multiple services",
+    "id": "Super app modular dengan berbagai layanan",
+    "ms": "Super app modular dengan pelbagai perkhidmatan"
   },
-  "tags": ["Flutter", "Logistics", "Delivery", "Tracking"],
-  "technologies": ["Flutter", "Dart", "Maps API", "Real-time Tracking"],
+  "tags": ["Flutter", "Super App", "Membership", "Marketplace"],
+  "technologies": ["Flutter", "Dart", "Android", "iOS", "Firebase", "Socket", "Push Notification", "Face Recognition", "Geolocation", "QR Scanner"],
   "links": {
     "android": "",
     "ios": ""

@@ -255,23 +255,8 @@ class PortfolioApp {
                 `;
             }
 
-            // Generate links section
+            // Generate links section - REMOVED (not needed)
             let linksHTML = '';
-            if (project.links && (project.links.android || project.links.ios || project.links.project)) {
-                const linkButtons = [];
-                if (project.links.android) linkButtons.push(`<a href="${project.links.android}" target="_blank" class="project-link-btn"><i class="fab fa-google-play"></i> Play Store</a>`);
-                if (project.links.ios) linkButtons.push(`<a href="${project.links.ios}" target="_blank" class="project-link-btn"><i class="fab fa-app-store-ios"></i> App Store</a>`);
-                if (project.links.project) linkButtons.push(`<a href="${project.links.project}" target="_blank" class="project-link-btn"><i class="fas fa-external-link-alt"></i> Visit Website</a>`);
-                
-                if (linkButtons.length > 0) {
-                    linksHTML = `
-                        <div class="project-detail-section">
-                            <h4><i class="fas fa-link"></i> Links</h4>
-                            <div class="project-links">${linkButtons.join('')}</div>
-                        </div>
-                    `;
-                }
-            }
 
             // Create modal HTML
             const modalHTML = `
@@ -294,7 +279,6 @@ class PortfolioApp {
                                     ${screenshotsHTML}
                                     ${tagsHTML}
                                     ${technologiesHTML}
-                                    ${linksHTML}
                                 </div>
                             </div>
                         </div>

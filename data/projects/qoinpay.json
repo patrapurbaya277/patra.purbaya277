@@ -13,17 +13,17 @@
     "Mobile/Qoinpay/2.png"
   ],
   "description": {
-    "en": "TODO: Add detailed description in English about Qoinpay - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Qoinpay - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Qoinpay - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "An individual crypto wallet-based digital wallet application that enables financial transactions using blockchain technology. Supports multi-chain (EVM, Solana, BTC, BSC) and is equipped with face verification, data encryption, QR scanner, and Web3-based real-time communication for decentralized finance operations.",
+    "id": "Aplikasi dompet digital berbasis crypto wallet individual yang memungkinkan transaksi finansial menggunakan teknologi blockchain. Mendukung multi-chain (EVM, Solana, BTC, BSC) serta dilengkapi face verification, enkripsi data, QR scanner, dan komunikasi real-time berbasis Web3 untuk operasi keuangan terdesentralisasi.",
+    "ms": "Aplikasi dompet digital berasaskan dompet kripto individu yang membolehkan transaksi kewangan menggunakan teknologi blockchain. Menyokong multi-chain (EVM, Solana, BTC, BSC) serta dilengkapi pengesahan muka, penyulitan data, pengimbas QR, dan komunikasi masa nyata berasaskan Web3 untuk operasi kewangan terdesentralisasi."
   },
   "shortDescription": {
     "en": "Merchant payment solution with QR code",
     "id": "Solusi pembayaran merchant dengan kode QR",
     "ms": "Penyelesaian pembayaran pedagang dengan kod QR"
   },
-  "tags": ["Flutter", "QR Payment", "Merchant", "POS"],
-  "technologies": ["Flutter", "Dart", "QR Scanner", "REST API"],
+  "tags": ["Flutter", "Crypto Wallet", "Blockchain", "Web3"],
+  "technologies": ["Flutter", "Dart", "Android", "iOS", "Firebase", "Socket", "Push Notification", "Face Recognition & Verification", "Geolocation", "Data Encryption", "Web3", "Blockchain (EVM, Solana, BTC, BSC)", "QR Scanner"],
   "links": {
     "android": "",
     "ios": ""

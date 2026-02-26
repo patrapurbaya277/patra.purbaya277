@@ -10,17 +10,17 @@
   "logo": "Web/Filago.png",
   "screenshots": ["Web/Filago.png"],
   "description": {
-    "en": "TODO: Add detailed description in English about Filago - what it does, features, technologies used, your role, challenges solved, etc.",
-    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Filago - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
-    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Filago - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+    "en": "A company profile website for a law firm that displays company profile, legal services, professional team, and contact information in a structured manner with a clean UI approach and SEO-friendly design to enhance online visibility and credibility.",
+    "id": "Website company profile untuk instansi advokat yang menampilkan profil perusahaan, layanan hukum, tim profesional, serta informasi kontak secara terstruktur dengan pendekatan UI yang bersih dan SEO-friendly untuk meningkatkan visibilitas online dan kredibilitas.",
+    "ms": "Laman web profil syarikat untuk firma guaman yang memaparkan profil syarikat, perkhidmatan undang-undang, pasukan profesional, serta maklumat hubungan secara berstruktur dengan pendekatan UI yang bersih dan mesra SEO untuk meningkatkan keterlihatan dalam talian dan kredibiliti."
   },
   "shortDescription": {
     "en": "Corporate website for business solutions",
     "id": "Website korporat untuk solusi bisnis",
     "ms": "Laman web korporat untuk penyelesaian perniagaan"
   },
-  "tags": ["Advocate", "Corporate", "Business", "Law"],
-  "technologies": ["Laravel", "PHP", "MySQL", "HTML/CSS"],
+  "tags": ["WordPress", "Corporate", "Business", "Law Firm"],
+  "technologies": ["Laravel", "PHP", "HTML", "CSS", "MySQL"],
   "links": {
     "project": ""
   },
