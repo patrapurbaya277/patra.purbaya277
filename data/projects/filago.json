@@ -19,7 +19,7 @@
     "id": "Website korporat untuk solusi bisnis",
     "ms": "Laman web korporat untuk penyelesaian perniagaan"
   },
-  "tags": ["WordPress", "Corporate", "Business", "Law Firm"],
+  "tags": ["Corporate", "Business", "Law Firm"],
   "technologies": ["Laravel", "PHP", "HTML", "CSS", "MySQL"],
   "links": {
     "project": ""
