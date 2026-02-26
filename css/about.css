@@ -1,0 +1,159 @@
+/* ==========================================
+   ABOUT SECTION
+   ========================================== */
+.about-image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-shape {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background: linear-gradient(135deg, #4169E1, #7B68EE);
+    border-radius: 70% 30% 50% 50% / 40% 60% 40% 60%;
+    transform: rotate(-5deg);
+    animation: about-morphing 10s ease-in-out infinite alternate;
+    z-index: 1;
+}
+
+.about-image, .about-placeholder {
+    position: relative;
+    width: 330px;
+    height: 330px;
+    border-radius: 40% 60% 60% 40% / 50% 30% 70% 50%;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: morphing 10s ease-in-out infinite alternate;
+}
+
+.about-image img, .about-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.about-image:hover img, .about-placeholder:hover img {
+    transform: scale(1.05);
+}
+
+@keyframes about-morphing {
+    0% { border-radius: 70% 30% 50% 50% / 40% 60% 40% 60%; }
+    25% { border-radius: 50% 50% 30% 70% / 60% 40% 60% 40%; }
+    50% { border-radius: 30% 70% 70% 30% / 50% 30% 70% 50%; }
+    75% { border-radius: 50% 50% 60% 40% / 30% 60% 40% 70%; }
+    100% { border-radius: 70% 30% 50% 50% / 40% 60% 40% 60%; }
+}
+
+/* Work Experience Timeline */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    width: 2px;
+    background: var(--gradient);
+    background-size: 200% 200%;
+    animation: gradient-shift 5s infinite alternate;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -39px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--gradient);
+    border: 3px solid var(--dark-color);
+}
+
+.timeline-content h5 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: var(--light-color);
+}
+
+.timeline-content .company {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.timeline-content .period {
+    font-size: 0.8rem;
+    color: var(--gray-color);
+}
+
+/* Skills - Tag Style (NO PERCENTAGE BARS) */
+.soft-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.soft-skill-tag {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50px;
+    font-size: 0.9rem;
+    color: var(--light-color);
+    transition: var(--transition);
+}
+
+.soft-skill-tag:hover {
+    background: var(--gradient);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+}
+
+@media (max-width: 991.98px) {
+    .about-image-container {
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    
+    .about-shape {
+        width: 320px;
+        height: 320px;
+    }
+    
+    .about-image, .about-placeholder {
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about-image-container {
+        height: 300px;
+    }
+    
+    .about-shape {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .about-image, .about-placeholder {
+        width: 250px;
+        height: 250px;
+    }
+}

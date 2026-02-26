@@ -1,0 +1,69 @@
+/* ==========================================
+   BUTTONS & INTERACTIVE ELEMENTS
+   ========================================== */
+.btn-primary {
+    background: var(--primary-color);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 500;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: var(--transition);
+    color: white !important;
+}
+
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--tertiary-color);
+    z-index: -1;
+    transition: var(--transition);
+    border-radius: 50px;
+}
+
+.btn-primary:hover::before {
+    width: 100%;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+    transform: translateY(-3px);
+}
+
+.btn-outline-light {
+    border: 2px solid var(--light-color);
+    padding: 12px 30px;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: var(--transition);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.filter-btn {
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: none;
+    border-radius: 50px;
+    color: var(--light-color);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.filter-btn:hover, 
+.filter-btn.active {
+    background: var(--gradient);
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+}

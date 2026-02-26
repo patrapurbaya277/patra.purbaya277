@@ -1,0 +1,35 @@
+{
+  "id": "dokars",
+  "category": "mobile",
+  "platforms": ["android", "ios"],
+  "name": {
+    "en": "Dokars",
+    "id": "Dokars",
+    "ms": "Dokars"
+  },
+  "logo": "Mobile/Dokars/logo.webp",
+  "logoStyle": "rounded",
+  "screenshots": [
+    "Mobile/Dokars/1.webp",
+    "Mobile/Dokars/2.webp",
+    "Mobile/Dokars/3.webp"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Dokars - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Dokars - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Dokars - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Healthcare consultation and telemedicine platform",
+    "id": "Platform konsultasi kesehatan dan telemedicine",
+    "ms": "Platform perundingan kesihatan dan teleperubatan"
+  },
+  "tags": ["Flutter", "Healthcare", "Telemedicine", "Consultation"],
+  "technologies": ["Flutter", "Dart", "Video Call", "Firebase"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": true,
+  "order": 3
+}

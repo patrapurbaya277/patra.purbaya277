@@ -1,0 +1,161 @@
+/* ==========================================
+   CONTACT SECTION
+   ========================================== */
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.contact-item h5 {
+    color: var(--light-color);
+    margin-bottom: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    color: var(--light-color);
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    background: var(--gradient);
+    transform: translateY(-5px);
+}
+
+/* Form Styles */
+label, .form-label {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.form-control, 
+input[type="text"], 
+input[type="email"], 
+input[type="password"],
+input[type="tel"],
+textarea,
+select {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    transition: all 0.3s ease !important;
+    padding: 12px 15px;
+    border-radius: 8px;
+}
+
+.form-control:focus, 
+input:focus, 
+textarea:focus,
+select:focus {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    color: #ffffff !important;
+    border-color: rgba(59, 89, 219, 0.6) !important;
+    box-shadow: 0 0 0 0.25rem rgba(59, 89, 219, 0.25) !important;
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    opacity: 1 !important;
+}
+
+.form-control + .btn,
+form .btn,
+button[type="submit"] {
+    background-color: #3B59DB !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.5rem 1.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+
+.form-control + .btn:hover,
+form .btn:hover,
+button[type="submit"]:hover {
+    background-color: #4B69EB !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-text {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.valid-feedback {
+    color: #4CD964 !important;
+}
+
+.invalid-feedback {
+    color: #FF3B30 !important;
+}
+
+.form-check-label {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+option {
+    background-color: #121826 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+@media (max-width: 991.98px) {
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 250px;
+    }
+    
+    .contact-item .icon-box {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    form {
+        padding: 1rem !important;
+    }
+    
+    .form-control, 
+    input[type="text"], 
+    input[type="email"], 
+    input[type="password"],
+    textarea,
+    select {
+        font-size: 16px !important;
+    }
+}

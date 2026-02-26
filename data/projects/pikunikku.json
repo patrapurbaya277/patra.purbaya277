@@ -1,0 +1,33 @@
+{
+  "id": "pikunikku",
+  "category": "mobile",
+  "platforms": ["android"],
+  "name": {
+    "en": "Pikunikku",
+    "id": "Pikunikku",
+    "ms": "Pikunikku"
+  },
+  "logo": null,
+  "screenshots": [
+    "Mobile/Pikunikku/1.png",
+    "Mobile/Pikunikku/2.png"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Pikunikku - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Pikunikku - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Pikunikku - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Event planning and picnic organization app",
+    "id": "Aplikasi perencanaan acara dan organisasi piknik",
+    "ms": "Aplikasi perancangan acara dan organisasi berkelah"
+  },
+  "tags": ["Flutter", "Event Planning", "Social", "Location"],
+  "technologies": ["Flutter", "Dart", "Maps API", "Firebase"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": false,
+  "order": 9
+}

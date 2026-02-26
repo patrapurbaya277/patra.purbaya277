@@ -1,0 +1,29 @@
+{
+  "id": "walk-the-talk",
+  "category": "web",
+  "platforms": ["web"],
+  "name": {
+    "en": "Walk The Talk",
+    "id": "Walk The Talk",
+    "ms": "Walk The Talk"
+  },
+  "logo": "Web/Logo-Walk The Talk.png",
+  "screenshots": [],
+  "description": {
+    "en": "TODO: Add detailed description in English about Walk The Talk - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Walk The Talk - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Walk The Talk - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Training and consulting company website",
+    "id": "Website perusahaan pelatihan dan konsultasi",
+    "ms": "Laman web syarikat latihan dan perundingan"
+  },
+  "tags": ["Corporate Website", "Training", "Consulting", "CMS"],
+  "technologies": ["WordPress", "PHP", "JavaScript", "Bootstrap"],
+  "links": {
+    "project": ""
+  },
+  "featured": false,
+  "order": 13
+}

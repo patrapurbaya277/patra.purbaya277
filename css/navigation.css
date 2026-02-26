@@ -1,0 +1,121 @@
+/* ==========================================
+   NAVIGATION STYLES
+   ========================================== */
+.navbar {
+    padding: 15px 0;
+    background-color: transparent;
+    transition: var(--transition);
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: rgba(17, 24, 39, 0.95);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--light-color) !important;
+    transition: var(--transition);
+    position: relative;
+}
+
+.navbar-brand:hover {
+    transform: translateY(-2px);
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    margin: 0 15px;
+    position: relative;
+    transition: var(--transition);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gradient);
+    transition: var(--transition);
+    transform-origin: left;
+}
+
+.nav-link:hover::after, 
+.nav-link.active::after {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Mobile Navigation */
+@media (max-width: 991.98px) {
+    .navbar-collapse, 
+    .offcanvas, 
+    .offcanvas-body {
+        background-color: #121826 !important;
+        opacity: 0.97 !important;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: #ffffff !important;
+        font-weight: 500 !important;
+        padding: 12px 16px !important;
+        margin: 4px 0 !important;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link:hover {
+        background-color: rgba(59, 89, 219, 0.2) !important;
+        border-left: 3px solid #3B59DB !important;
+        padding-left: 13px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+}
+
+/* Language Selector */
+.language-selector .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+
+.language-selector .dropdown-menu {
+    background-color: rgba(17, 24, 39, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+    min-width: auto;
+}
+
+.language-selector .dropdown-item {
+    color: var(--light-color);
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.language-selector .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.language-selector .dropdown-item.active {
+    background-color: var(--primary-color);
+    font-weight: 500;
+}

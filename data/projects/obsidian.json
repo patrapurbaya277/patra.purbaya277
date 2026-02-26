@@ -1,0 +1,34 @@
+{
+  "id": "obsidian",
+  "category": "mobile",
+  "platforms": ["android", "ios"],
+  "name": {
+    "en": "Obsidian",
+    "id": "Obsidian",
+    "ms": "Obsidian"
+  },
+  "logo": "Mobile/Obsidian/logo.webp",
+  "logoStyle": "rounded",
+  "screenshots": [
+    "Mobile/Obsidian/1.webp",
+    "Mobile/Obsidian/2.webp"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Obsidian - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Obsidian - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Obsidian - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Advanced note-taking and knowledge management",
+    "id": "Pencatatan dan manajemen pengetahuan tingkat lanjut",
+    "ms": "Pencatatan dan pengurusan pengetahuan lanjutan"
+  },
+  "tags": ["Flutter", "Productivity", "Note-taking", "Knowledge Base"],
+  "technologies": ["Flutter", "Dart", "Local Storage", "Markdown"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": false,
+  "order": 4
+}

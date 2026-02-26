@@ -1,0 +1,29 @@
+{
+  "id": "vectrococo",
+  "category": "web",
+  "platforms": ["web"],
+  "name": {
+    "en": "Vectrococo",
+    "id": "Vectrococo",
+    "ms": "Vectrococo"
+  },
+  "logo": "Web/Logo-Vectrococo.png",
+  "screenshots": [],
+  "description": {
+    "en": "TODO: Add detailed description in English about Vectrococo - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Vectrococo - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Vectrococo - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "E-commerce platform for coconut products",
+    "id": "Platform e-commerce untuk produk kelapa",
+    "ms": "Platform e-dagang untuk produk kelapa"
+  },
+  "tags": ["E-commerce", "WordPress", "WooCommerce", "Online Store"],
+  "technologies": ["WordPress", "WooCommerce", "PHP", "MySQL"],
+  "links": {
+    "project": ""
+  },
+  "featured": false,
+  "order": 12
+}

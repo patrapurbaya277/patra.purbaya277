@@ -7,10 +7,22 @@
   "navbar": {
     "brand": "Patra Purbaya",
     "links": [
-      { "text": "Home", "href": "#home" },
-      { "text": "Portfolio", "href": "#portfolio" },
-      { "text": "About", "href": "#about" },
-      { "text": "Contact", "href": "#contact" }
+      {
+        "text": "Home",
+        "href": "#home"
+      },
+      {
+        "text": "Portfolio",
+        "href": "#portfolio"
+      },
+      {
+        "text": "About",
+        "href": "#about"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "home": {
@@ -18,7 +30,7 @@
     "title": "Senior Mobile Flutter Developer",
     "tagline": "Transforming ideas into exceptional mobile experiences for Android and iOS since 2020.",
     "buttons": {
-      "portfolio": "Portofolio",
+      "portfolio": "Portfolio",
       "contact": "Contact Me"
     }
   },
@@ -26,18 +38,37 @@
     "title": "My Portfolio",
     "subtitle": "Explore my recent projects across different platforms",
     "filters": [
-      { "text": "All", "filter": "all" },
-      { "text": "Android", "filter": "android" },
-      { "text": "iOS", "filter": "ios" },
-      { "text": "Web", "filter": "web" }
+      {
+        "text": "All",
+        "filter": "all"
+      },
+      {
+        "text": "Android",
+        "filter": "android"
+      },
+      {
+        "text": "iOS",
+        "filter": "ios"
+      },
+      {
+        "text": "Web",
+        "filter": "web"
+      }
     ],
     "projects": [
       {
         "title": "Flutter Cross-Platform App",
         "description": "A feature-rich application developed for both Android and iOS using Flutter.",
         "image": "flutter-cross-platform.png",
-        "tags": ["Flutter", "Cross-Platform", "Firebase"],
-        "platforms": ["android", "ios"],
+        "tags": [
+          "Flutter",
+          "Cross-Platform",
+          "Firebase"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ],
         "links": {
           "android": "",
           "ios": ""
@@ -47,8 +78,14 @@
         "title": "E-Commerce App",
         "description": "A Flutter-based e-commerce application with cart, payment, and order tracking features.",
         "image": "android-ecommerce.png",
-        "tags": ["Flutter", "Android", "E-Commerce"],
-        "platforms": ["android"],
+        "tags": [
+          "Flutter",
+          "Android",
+          "E-Commerce"
+        ],
+        "platforms": [
+          "android"
+        ],
         "links": {
           "project": ""
         }
@@ -57,8 +94,14 @@
         "title": "Food Delivery App",
         "description": "An iOS app for food delivery with real-time tracking and payment integration.",
         "image": "ios-food-delivery.png",
-        "tags": ["Flutter", "iOS", "Maps API"],
-        "platforms": ["ios"],
+        "tags": [
+          "Flutter",
+          "iOS",
+          "Maps API"
+        ],
+        "platforms": [
+          "ios"
+        ],
         "links": {
           "project": ""
         }
@@ -67,8 +110,14 @@
         "title": "Corporate Website",
         "description": "A responsive corporate website built with modern web technologies.",
         "image": "web-corporate.png",
-        "tags": ["HTML/CSS", "PHP", "WordPress"],
-        "platforms": ["web"],
+        "tags": [
+          "HTML/CSS",
+          "PHP",
+          "WordPress"
+        ],
+        "platforms": [
+          "web"
+        ],
         "links": {
           "project": ""
         }
@@ -77,8 +126,15 @@
         "title": "Finance & Blockchain App",
         "description": "A financial application with blockchain integration for secure transactions.",
         "image": "finance-blockchain.png",
-        "tags": ["Flutter", "Blockchain", "Finance"],
-        "platforms": ["android", "ios"],
+        "tags": [
+          "Flutter",
+          "Blockchain",
+          "Finance"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ],
         "links": {
           "android": "",
           "ios": ""
@@ -88,8 +144,14 @@
         "title": "UI/UX Design Portfolio",
         "description": "A collection of UI/UX designs created with Figma for various projects.",
         "image": "uiux-design.png",
-        "tags": ["Figma", "UI/UX", "Design"],
-        "platforms": ["web"],
+        "tags": [
+          "Figma",
+          "UI/UX",
+          "Design"
+        ],
+        "platforms": [
+          "web"
+        ],
         "links": {
           "project": ""
         }
@@ -128,13 +190,38 @@
     "technicalSkills": {
       "title": "My Skills",
       "skills": [
-        { "name": "Flutter", "level": 95 },
-        { "name": "Android Native", "level": 85 },
-        { "name": "iOS Development", "level": 80 },
-        { "name": "WordPress", "level": 85 },
-        { "name": "HTML/CSS/PHP", "level": 85 },
-        { "name": "Figma", "level": 80 },
-        { "name": "Blockchain", "level": 75 }
+        {
+          "name": "Flutter",
+          "level": 95
+        },
+        {
+          "name": "Android",
+          "level": 85
+        },
+        {
+          "name": "iOS",
+          "level": 80
+        },
+        {
+          "name": "WordPress",
+          "level": 85
+        },
+        {
+          "name": "HTML/CSS/PHP",
+          "level": 85
+        },
+        {
+          "name": "Figma",
+          "level": 80
+        },
+        {
+          "name": "Blockchain",
+          "level": 75
+        },
+        {
+          "name": "Burp Suite",
+          "level": 70
+        }
       ]
     },
     "softSkills": {
@@ -169,9 +256,21 @@
       }
     },
     "socialLinks": [
-      { "platform": "whatsapp", "url": "https://wa.me/6281351963101", "icon": "fab fa-whatsapp" },
-      { "platform": "instagram", "url": "https://www.instagram.com/patra_purbaya/", "icon": "fab fa-instagram" },
-      { "platform": "linkedin", "url": "https://www.linkedin.com/in/patrapurbaya/", "icon": "fab fa-linkedin" }
+      {
+        "platform": "whatsapp",
+        "url": "https://wa.me/6281351963101",
+        "icon": "fab fa-whatsapp"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/patra_purbaya/",
+        "icon": "fab fa-instagram"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/in/patrapurbaya/",
+        "icon": "fab fa-linkedin"
+      }
     ],
     "form": {
       "namePlaceholder": "Your Name",
@@ -185,9 +284,18 @@
   "languageSelector": {
     "label": "Language",
     "options": [
-      { "value": "en", "text": "English" },
-      { "value": "id", "text": "Bahasa Indonesia" },
-      { "value": "ms", "text": "Bahasa Melayu" }
+      {
+        "value": "en",
+        "text": "English"
+      },
+      {
+        "value": "id",
+        "text": "Bahasa Indonesia"
+      },
+      {
+        "value": "ms",
+        "text": "Bahasa Melayu"
+      }
     ]
   },
   "navigation": {
@@ -357,4 +465,4 @@
       ]
     }
   }
-} 
+}

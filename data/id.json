@@ -30,7 +30,7 @@
         "title": "Senior Mobile Flutter Developer",
         "tagline": "Mengubah ide menjadi pengalaman mobile yang luar biasa untuk Android dan iOS sejak 2020.",
         "buttons": {
-            "portfolio": "Lihat Karya Saya",
+            "portfolio": "Lihat Portofolio",
             "contact": "Hubungi Saya"
         }
     },
@@ -195,11 +195,11 @@
                     "level": 95
                 },
                 {
-                    "name": "Android Native",
+                    "name": "Android",
                     "level": 85
                 },
                 {
-                    "name": "iOS Development",
+                    "name": "iOS",
                     "level": 80
                 },
                 {
@@ -217,6 +217,10 @@
                 {
                     "name": "Blockchain",
                     "level": 75
+                },
+                {
+                    "name": "Burp Suite",
+                    "level": 70
                 }
             ]
         },

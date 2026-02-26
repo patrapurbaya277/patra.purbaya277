@@ -1,0 +1,33 @@
+{
+  "id": "daily-santri",
+  "category": "mobile",
+  "platforms": ["android"],
+  "name": {
+    "en": "Daily Santri",
+    "id": "Daily Santri",
+    "ms": "Daily Santri"
+  },
+  "logo": "Mobile/Daily Santri/logo.png",
+  "screenshots": [
+    "Mobile/Daily Santri/1.png",
+    "Mobile/Daily Santri/2.png"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Daily Santri - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Daily Santri - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Daily Santri - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Islamic learning and daily activities tracker for students",
+    "id": "Pembelajaran Islam dan pelacak aktivitas harian untuk santri",
+    "ms": "Pembelajaran Islam dan penjejak aktiviti harian untuk pelajar"
+  },
+  "tags": ["Flutter", "Education", "Islamic", "Tracker"],
+  "technologies": ["Flutter", "Dart", "SQLite", "Notifications"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": false,
+  "order": 7
+}

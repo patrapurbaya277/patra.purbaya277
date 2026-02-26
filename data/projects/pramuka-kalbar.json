@@ -1,0 +1,29 @@
+{
+  "id": "pramuka-kalbar",
+  "category": "web",
+  "platforms": ["web"],
+  "name": {
+    "en": "Pramuka Kalbar",
+    "id": "Pramuka Kalbar",
+    "ms": "Pramuka Kalbar"
+  },
+  "logo": "Web/Pramuka Kalbar.png",
+  "screenshots": ["Web/Pramuka Kalbar.png"],
+  "description": {
+    "en": "TODO: Add detailed description in English about Pramuka Kalbar - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Pramuka Kalbar - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Pramuka Kalbar - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Scout organization website for West Kalimantan",
+    "id": "Website organisasi pramuka Kalimantan Barat",
+    "ms": "Laman web organisasi pengakap Kalimantan Barat"
+  },
+  "tags": ["WordPress", "Organization", "News", "Community"],
+  "technologies": ["WordPress", "PHP", "MySQL", "HTML/CSS"],
+  "links": {
+    "project": ""
+  },
+  "featured": false,
+  "order": 15
+}

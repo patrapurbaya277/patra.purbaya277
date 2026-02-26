@@ -1,0 +1,33 @@
+{
+  "id": "qoinpay",
+  "category": "mobile",
+  "platforms": ["android", "ios"],
+  "name": {
+    "en": "Qoinpay",
+    "id": "Qoinpay",
+    "ms": "Qoinpay"
+  },
+  "logo": "Mobile/Qoinpay/logo.webp",
+  "screenshots": [
+    "Mobile/Qoinpay/1.png",
+    "Mobile/Qoinpay/2.png"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Qoinpay - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Qoinpay - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Qoinpay - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Merchant payment solution with QR code",
+    "id": "Solusi pembayaran merchant dengan kode QR",
+    "ms": "Penyelesaian pembayaran pedagang dengan kod QR"
+  },
+  "tags": ["Flutter", "QR Payment", "Merchant", "POS"],
+  "technologies": ["Flutter", "Dart", "QR Scanner", "REST API"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": true,
+  "order": 2
+}

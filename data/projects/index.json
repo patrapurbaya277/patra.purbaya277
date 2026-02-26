@@ -1,0 +1,25 @@
+{
+  "projects": [
+    "qoin-app",
+    "qoinpay",
+    "dokars",
+    "obsidian",
+    "satind",
+    "eksism",
+    "daily-santri",
+    "mojarnik",
+    "pikunikku",
+    "filago",
+    "rumah-gsi",
+    "vectrococo",
+    "walk-the-talk",
+    "poledium",
+    "pramuka-kalbar",
+    "ultima-digital"
+  ],
+  "categories": {
+    "mobile": ["qoin-app", "qoinpay", "dokars", "obsidian", "satind", "eksism", "daily-santri", "mojarnik", "pikunikku"],
+    "web": ["filago", "rumah-gsi", "vectrococo", "walk-the-talk", "poledium", "pramuka-kalbar", "ultima-digital"]
+  },
+  "featured": ["obsidian", "qoinpay", "dokars"]
+}

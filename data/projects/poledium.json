@@ -1,0 +1,29 @@
+{
+  "id": "poledium",
+  "category": "web",
+  "platforms": ["web"],
+  "name": {
+    "en": "Poledium",
+    "id": "Poledium",
+    "ms": "Poledium"
+  },
+  "logo": "Web/Poledium.png",
+  "screenshots": ["Web/Poledium.png"],
+  "description": {
+    "en": "TODO: Add detailed description in English about Poledium - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Poledium - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Poledium - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Educational platform and learning management system",
+    "id": "Platform pendidikan dan sistem manajemen pembelajaran",
+    "ms": "Platform pendidikan dan sistem pengurusan pembelajaran"
+  },
+  "tags": ["Education", "LMS", "WordPress", "E-Learning"],
+  "technologies": ["WordPress", "LMS Plugin", "PHP", "MySQL"],
+  "links": {
+    "project": ""
+  },
+  "featured": false,
+  "order": 14
+}

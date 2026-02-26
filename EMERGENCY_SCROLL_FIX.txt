@@ -1,0 +1,15 @@
+// Add this to index.html before closing </body> tag
+<script>
+// Force restore scroll on page load
+window.addEventListener("load", function() {
+    document.body.style.overflow = "";
+});
+
+// Emergency: restore scroll if stuck (run in console)
+window.fixScroll = function() {
+    document.querySelectorAll(".modal").forEach(m => m.remove());
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+    console.log("✅ Scroll restored!");
+};
+</script>

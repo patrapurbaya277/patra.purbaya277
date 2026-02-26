@@ -1,0 +1,33 @@
+{
+  "id": "mojarnik",
+  "category": "mobile",
+  "platforms": ["android"],
+  "name": {
+    "en": "Mojarnik",
+    "id": "Mojarnik",
+    "ms": "Mojarnik"
+  },
+  "logo": null,
+  "screenshots": [
+    "Mobile/Mojarnik/1.png",
+    "Mobile/Mojarnik/2.png"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Mojarnik - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Mojarnik - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Mojarnik - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Social networking and community platform",
+    "id": "Platform jejaring sosial dan komunitas",
+    "ms": "Platform rangkaian sosial dan komuniti"
+  },
+  "tags": ["Flutter", "Social Media", "Community", "Chat"],
+  "technologies": ["Flutter", "Dart", "Firebase", "WebSocket"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": false,
+  "order": 8
+}

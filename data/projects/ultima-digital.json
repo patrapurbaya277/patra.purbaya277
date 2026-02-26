@@ -1,0 +1,29 @@
+{
+  "id": "ultima-digital",
+  "category": "web",
+  "platforms": ["web"],
+  "name": {
+    "en": "Ultima Digital",
+    "id": "Ultima Digital",
+    "ms": "Ultima Digital"
+  },
+  "logo": "Web/Ultima Digital.png",
+  "screenshots": ["Web/Ultima Digital.png"],
+  "description": {
+    "en": "TODO: Add detailed description in English about Ultima Digital - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Ultima Digital - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Ultima Digital - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Digital agency company profile and portfolio",
+    "id": "Profil perusahaan dan portofolio agensi digital",
+    "ms": "Profil syarikat dan portfolio agensi digital"
+  },
+  "tags": ["Company Profile", "Portfolio", "WordPress", "Agency"],
+  "technologies": ["WordPress", "PHP", "JavaScript", "Bootstrap"],
+  "links": {
+    "project": ""
+  },
+  "featured": false,
+  "order": 16
+}

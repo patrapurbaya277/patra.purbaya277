@@ -1,0 +1,33 @@
+{
+  "id": "eksism",
+  "category": "mobile",
+  "platforms": ["android", "ios"],
+  "name": {
+    "en": "Eksism",
+    "id": "Eksism",
+    "ms": "Eksism"
+  },
+  "logo": "Mobile/Eksism/logo.webp",
+  "screenshots": [
+    "Mobile/Eksism/1.webp",
+    "Mobile/Eksism/2.webp"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Eksism - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Eksism - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Eksism - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Express delivery and logistics management",
+    "id": "Manajemen pengiriman ekspres dan logistik",
+    "ms": "Pengurusan penghantaran ekspres dan logistik"
+  },
+  "tags": ["Flutter", "Logistics", "Delivery", "Tracking"],
+  "technologies": ["Flutter", "Dart", "Maps API", "Real-time Tracking"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": false,
+  "order": 6
+}

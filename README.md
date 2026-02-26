@@ -1,166 +1,240 @@
-# Patra Purbaya Portfolio Website
+# Portfolio Website - Patra Purbaya
 
-A modern, animated single-page portfolio website for Patra Purbaya, a Senior Mobile Flutter Developer specializing in Android and iOS development.
+## Struktur Proyek yang Diperbarui
 
-## Features
+### 📁 Struktur Folder
 
-- Modern and clean design with beautiful animations
-- Responsive layout that works on all devices
-- Single-page application with smooth scrolling
-- Interactive portfolio section with platform filtering (Android, iOS, Web)
-- Cross-platform project showcase with separate Android and iOS links
-- Work experience timeline with animated elements
-- Soft skills and technical skills visualization
-- Animated skills section with progress bars
-- Contact form with validation
-- Custom cursor effect
-- Particle background effect
-- AOS (Animate On Scroll) integration
-- Easy to customize and modify
+```
+Portfolio/
+├── index.html                 # HTML utama
+├── form-handler.php          # PHP untuk form handling
+│
+├── css/                      # CSS Modular (BARU)
+│   ├── base.css             # Variables, typography, global styles
+│   ├── navigation.css       # Navbar & language selector
+│   ├── buttons.css          # Button styles
+│   ├── home.css             # Home/Hero section
+│   ├── portfolio.css        # Portfolio section
+│   ├── about.css            # About section (skills tanpa percentage bars)
+│   ├── contact.css          # Contact section & forms
+│   ├── effects.css          # Visual effects & animations
+│   └── footer.css           # Footer & utilities
+│
+├── js/                       # JavaScript Modular (BARU)
+│   ├── main.js              # Main application entry point
+│   ├── config.js            # Configuration constants
+│   ├── languageManager.js   # Language switching dengan caching
+│   ├── uiManager.js         # UI updates & content management
+│   ├── effectsManager.js    # Visual effects (particles, cursor, etc.)
+│   └── portfolioLoader.js   # Dynamic portfolio loading
+│
+├── data/                     # Data & Content
+│   ├── en.json              # English content
+│   ├── id.json              # Indonesian content
+│   ├── ms.json              # Malay content
+│   └── projects/            # Portfolio Projects (BARU)
+│       ├── index.json       # Projects index & categories
+│       ├── qoin-app.json
+│       ├── qoinpay.json
+│       ├── dokars.json
+│       ├── obsidian.json
+│       ├── satind.json
+│       ├── eksism.json
+│       ├── daily-santri.json
+│       ├── mojarnik.json
+│       ├── pikunikku.json
+│       ├── filago.json
+│       ├── rumah-gsi.json
+│       ├── vectrococo.json
+│       ├── walk-the-talk.json
+│       ├── poledium.json
+│       ├── pramuka-kalbar.json
+│       └── ultima-digital.json
+│
+├── images/                   # Image assets
+│   ├── profile_photo.JPG
+│   ├── about_me_image.JPG
+│   └── portfolio/           # Portfolio project images
+│       ├── Mobile/
+│       └── Web/
+│
+└── backup/                   # Backup files (OTOMATIS)
+    ├── script.js.backup
+    └── style.css.backup
+```
 
-## File Structure
+---
 
-- `index.html` - Main HTML structure
-- `style.css` - CSS styling and animations
-- `script.js` - JavaScript functionality and interactions
-- `form-handler.php` - PHP script for handling contact form submissions (optional)
+## 🎯 Perubahan Utama
 
-## How to Modify
+### 1. **Problem Solved: Language Switching Performance**
 
-### Changing Personal Information
+**Masalah sebelumnya:**
+- Setiap ganti bahasa, website di-reinitialize ulang
+- Particles, cursor, dan animations dibuat berulang kali
+- AOS library di-init berkali-kali
+- Loading sangat lambat dan perlu refresh
 
-To update your personal information, modify the following sections in `index.html`:
+**Solusi:**
+- ✅ **Caching System**: Data bahasa di-cache di memory
+- ✅ **Single Initialization**: Effects hanya dibuat sekali
+- ✅ **Selective Updates**: Hanya content yang diupdate, bukan visual effects
+- ✅ **Smooth Transitions**: Loading indicator cepat dan halus
 
-1. **Name and Title**: Update in the navbar, home section, and about section
-2. **About Me**: Update the text in the about section
-3. **Work Experience**: Edit the timeline items in the work experience section
-4. **Skills**: Modify the skills list and percentages in the about section
-5. **Contact Information**: Update your location, email, and phone number in the contact section
-6. **Social Media Links**: Add your social media profile URLs to the links in the contact section
+### 2. **Skills Section - No More Percentage Bars**
 
-### Customizing Colors
+**Perubahan:**
+- ❌ Dihapus: Progress bars dengan percentage
+- ✅ Ditambahkan: Tag-style display (sama seperti soft skills)
+- ✅ Lebih clean, fokus pada capabilities, bukan "measuring greatness"
 
-The color scheme can be easily modified by changing the CSS variables in the `:root` selector in `style.css`:
+### 3. **Portfolio Projects - Modular Structure**
 
-```css
-:root {
-    --primary-color: #6e57e0;    /* Main color (purple) */
-    --secondary-color: #ff6584;  /* Accent color (pink) */
-    --tertiary-color: #00c9a7;   /* Additional accent (teal) */
-    --dark-color: #121212;       /* Background color */
-    --light-color: #f8f9fa;      /* Text color */
-    --gray-color: #6c757d;       /* Neutral color */
-    /* ... other variables ... */
+**Struktur Baru:**
+- Setiap project punya file JSON sendiri
+- Organized by category (mobile/web)
+- Multi-language support built-in
+- **TODO placeholders** untuk setiap description
+
+**Format Project File:**
+```json
+{
+  "id": "project-id",
+  "category": "mobile",
+  "platforms": ["android", "ios"],
+  "name": { "en": "...", "id": "...", "ms": "..." },
+  "description": {
+    "en": "TODO: Add detailed description...",
+    "id": "TODO: Tambahkan deskripsi detail...",
+    "ms": "TODO: Tambah penerangan terperinci..."
+  },
+  "shortDescription": { ... },
+  "tags": [...],
+  "technologies": [...],
+  "links": { ... },
+  "featured": true/false,
+  "order": 1
 }
 ```
 
-### Adding Portfolio Projects
+### 4. **Modular Code Structure**
 
-To add a new portfolio project:
+**CSS Separation:**
+- 9 modular CSS files (base, navigation, buttons, home, portfolio, about, contact, effects, footer)
+- Lebih mudah maintain & debug
+- Better organization
 
-1. Copy an existing portfolio item structure from `index.html`
-2. Paste it within the `.portfolio-container` div
-3. Update the class to match the platform type (`android`, `ios`, or `web`)
-4. Modify the content (title, description, tags)
-5. Add your project link to the `data-link` attribute if available
+**JavaScript Separation:**
+- 6 modular JS files dengan ES6 modules
+- Clear separation of concerns:
+  - `config.js`: Constants
+  - `languageManager.js`: Language handling
+  - `uiManager.js`: Content updates
+  - `effectsManager.js`: Visual effects
+  - `portfolioLoader.js`: Portfolio loading
+  - `main.js`: App orchestration
 
-Example:
+---
 
-```html
-<div class="col-md-6 col-lg-4 mb-4 portfolio-item android" data-aos="zoom-in" data-aos-delay="100">
-    <div class="portfolio-card">
-        <div class="portfolio-image">
-            <div class="placeholder-image bg-primary-gradient">
-                <i class="fab fa-android fa-3x"></i>
-            </div>
-        </div>
-        <div class="portfolio-content">
-            <h4>Your Project Title</h4>
-            <p>Your project description goes here.</p>
-            <div class="portfolio-tags">
-                <span>Flutter</span>
-                <span>Android</span>
-                <span>Your Tag</span>
-            </div>
-            <a href="https://your-project-link.com" class="portfolio-link" data-link="https://your-project-link.com">View Project</a>
-        </div>
-    </div>
-</div>
+## 🚀 Cara Mengisi TODO Descriptions
+
+### Step 1: Edit Project Files
+
+Buka file project di `data/projects/`, contoh: `qoin-app.json`
+
+### Step 2: Ganti TODO dengan Deskripsi Real
+
+```json
+"description": {
+  "en": "Qoin App is a comprehensive digital payment and loyalty rewards platform that allows users to make transactions while earning points. Features include: QR code payments, loyalty program integration, transaction history, merchant discovery, and rewards redemption. Built with Flutter for seamless cross-platform experience.",
+  "id": "Qoin App adalah platform pembayaran digital dan reward loyalitas komprehensif yang memungkinkan pengguna melakukan transaksi sambil mengumpulkan poin. Fitur meliputi: pembayaran QR code, integrasi program loyalitas, riwayat transaksi, penemuan merchant, dan penukaran reward. Dibangun dengan Flutter untuk pengalaman lintas platform yang mulus.",
+  "ms": "Qoin App ialah platform pembayaran digital dan ganjaran kesetiaan komprehensif yang membolehkan pengguna membuat transaksi sambil mengumpul mata. Ciri termasuk: pembayaran kod QR, integrasi program kesetiaan, sejarah transaksi, penemuan pedagang, dan penebusan ganjaran. Dibina dengan Flutter untuk pengalaman merentas platform yang lancar."
+}
 ```
 
-### Adding Your Photo
+### Step 3: Minta Terjemahan
 
-To replace the placeholder icons with your photo:
+Setelah mengisi deskripsi dalam satu bahasa, katakan ke AI:
+> "Tolong terjemahkan description project [nama-project] ke bahasa Indonesia dan Melayu"
 
-1. Add your image file to the project directory
-2. In `index.html`, find the comment `<!-- You can replace with your image later -->` in both the home and about sections
-3. Replace the placeholder icon with an `<img>` tag pointing to your photo
+---
 
-Example:
-```html
-<div class="hero-image">
-    <!-- Replace this -->
-    <i class="fa-solid fa-code fa-5x"></i>
-    
-    <!-- With this -->
-    <img src="your-photo.jpg" alt="Patra Purbaya" class="img-fluid">
-</div>
+## 🔧 Development Notes
+
+### Running Locally
+
+Karena menggunakan ES6 modules, Anda perlu menjalankan dengan local server:
+
+```bash
+# Option 1: Python
+python -m http.server 8000
+
+# Option 2: PHP
+php -S localhost:8000
+
+# Option 3: Node.js (http-server)
+npx http-server -p 8000
+
+# Option 4: VS Code Live Server Extension
+# Right-click index.html → "Open with Live Server"
 ```
 
-### Modifying Animations
+Kemudian buka: `http://localhost:8000`
 
-Most animations are defined in the CSS file. You can adjust their parameters to change speed, style, and behavior:
+### Browser Compatibility
 
-- Duration and timing: Change values for animation duration and delay
-- Motion paths: Modify keyframe percentages and transform values
-- Effects: Add or remove animation properties
+- ✅ Modern browsers (Chrome, Firefox, Safari, Edge)
+- ✅ ES6 modules support required
+- ✅ Responsive design untuk mobile & tablet
 
-## Additional Customization
+---
 
-For more advanced customization, you can:
+## 📝 Maintenance Guide
 
-1. Add new sections by following the existing section structure
-2. Update the navigation menu when adding new sections
-3. Customize the preloader by modifying the relevant CSS and JavaScript
-4. Add additional libraries by including their CDN links in the HTML head
+### Menambah Project Baru
 
-## Browser Compatibility
+1. Buat file JSON di `data/projects/nama-project.json`
+2. Update `data/projects/index.json` (tambahkan ID project)
+3. Tambahkan images di `images/portfolio/`
 
-This website is compatible with modern browsers:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Opera (latest)
+### Menambah Bahasa Baru
 
-### Adding Platform-Specific Project Links
+1. Buat file `data/xx.json` (xx = language code)
+2. Update `languageSelector.options` di file JSON bahasa lain
+3. Tidak perlu edit JavaScript!
 
-For projects that are available on multiple platforms:
+### Mengubah Visual Styles
 
-1. Use the cross-platform portfolio item structure with separate links for Android and iOS
-2. Update the `data-link` attribute for each platform link with the respective app store URLs
-3. If a platform version is not available, keep the `data-link` attribute empty
+- Edit CSS files di folder `css/`
+- Setiap section punya file sendiri
+- Variables ada di `css/base.css`
 
-Example:
-```html
-<div class="platform-links">
-    <a href="https://play.google.com/store/apps/details?id=com.yourapp" class="platform-link android" data-link="https://play.google.com/store/apps/details?id=com.yourapp">
-        <i class="fab fa-android"></i> Android
-    </a>
-    <a href="https://apps.apple.com/app/your-app/id123456789" class="platform-link ios" data-link="https://apps.apple.com/app/your-app/id123456789">
-        <i class="fab fa-apple"></i> iOS
-    </a>
-</div>
-```
+---
 
-### Using the PHP Form Handler
+## ✅ Features Implemented
 
-To use the PHP form handler instead of the JavaScript form handling:
+- ✅ Performance optimized language switching
+- ✅ Caching system untuk data bahasa
+- ✅ Modular & scalable code structure
+- ✅ Portfolio projects dalam file terpisah
+- ✅ Skills tanpa percentage bars (tag style)
+- ✅ Clean, maintainable CSS
+- ✅ ES6 modules JavaScript
+- ✅ TODO placeholders untuk descriptions
+- ✅ Responsive design
+- ✅ Smooth animations & transitions
+- ✅ Professional code organization
 
-1. Rename `index.html` to `index.php` 
-2. Update the contact form to submit to the PHP script:
-   ```html
-   <form id="contactForm" method="post" action="form-handler.php">
-   ```
-3. Upload both files to a server with PHP support
-4. Uncomment the email sending code in `form-handler.php` when ready # patrapurbaya277.github.io
+---
+
+## 📧 Support
+
+Untuk pertanyaan atau bantuan, hubungi:
+- Email: patra.purbaya277@gmail.com
+- WhatsApp: +62 813 5196 3101
+
+---
+
+**Last Updated**: February 2026  
+**Version**: 2.0  
+**Status**: Production Ready ✅

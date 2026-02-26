@@ -1,0 +1,34 @@
+{
+  "id": "qoin-app",
+  "category": "mobile",
+  "platforms": ["android", "ios"],
+  "name": {
+    "en": "Qoin App",
+    "id": "Qoin App",
+    "ms": "Qoin App"
+  },
+  "logo": "Mobile/Qoin App/logo.webp",
+  "logoStyle": "rounded",
+  "screenshots": [
+    "Mobile/Qoin App/1.webp",
+    "Mobile/Qoin App/2.webp"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Qoin App - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Qoin App - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Qoin App - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Digital payment and loyalty rewards platform",
+    "id": "Platform pembayaran digital dan reward loyalitas",
+    "ms": "Platform pembayaran digital dan ganjaran kesetiaan"
+  },
+  "tags": ["Flutter", "Payment", "Loyalty", "E-Wallet"],
+  "technologies": ["Flutter", "Dart", "Firebase", "REST API"],
+  "links": {
+    "android": "https://play.google.com/store/apps/details?id=com.qoin.app",
+    "ios": "https://apps.apple.com/id/app/qoin/id1234567890"
+  },
+  "featured": true,
+  "order": 1
+}

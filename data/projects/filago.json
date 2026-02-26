@@ -1,0 +1,29 @@
+{
+  "id": "filago",
+  "category": "web",
+  "platforms": ["web"],
+  "name": {
+    "en": "Filago",
+    "id": "Filago",
+    "ms": "Filago"
+  },
+  "logo": "Web/Filago.png",
+  "screenshots": ["Web/Filago.png"],
+  "description": {
+    "en": "TODO: Add detailed description in English about Filago - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Filago - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Filago - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Corporate website for business solutions",
+    "id": "Website korporat untuk solusi bisnis",
+    "ms": "Laman web korporat untuk penyelesaian perniagaan"
+  },
+  "tags": ["Advocate", "Corporate", "Business", "Law"],
+  "technologies": ["Laravel", "PHP", "MySQL", "HTML/CSS"],
+  "links": {
+    "project": ""
+  },
+  "featured": false,
+  "order": 10
+}

@@ -1,0 +1,33 @@
+{
+  "id": "satind",
+  "category": "mobile",
+  "platforms": ["android"],
+  "name": {
+    "en": "Satind",
+    "id": "Satind",
+    "ms": "Satind"
+  },
+  "logo": "Mobile/Satind/logo.webp",
+  "screenshots": [
+    "Mobile/Satind/1.webp",
+    "Mobile/Satind/2.webp"
+  ],
+  "description": {
+    "en": "TODO: Add detailed description in English about Satind - what it does, features, technologies used, your role, challenges solved, etc.",
+    "id": "TODO: Tambahkan deskripsi detail dalam Bahasa Indonesia tentang Satind - apa fungsinya, fitur-fitur, teknologi yang digunakan, peran Anda, tantangan yang diselesaikan, dll.",
+    "ms": "TODO: Tambah penerangan terperinci dalam Bahasa Melayu tentang Satind - apa fungsinya, ciri-ciri, teknologi yang digunakan, peranan anda, cabaran yang diselesaikan, dll."
+  },
+  "shortDescription": {
+    "en": "Industrial safety and compliance monitoring",
+    "id": "Pemantauan keselamatan dan kepatuhan industri",
+    "ms": "Pemantauan keselamatan dan pematuhan industri"
+  },
+  "tags": ["Flutter", "Safety", "Monitoring", "Compliance"],
+  "technologies": ["Flutter", "Dart", "IoT Integration", "REST API"],
+  "links": {
+    "android": "",
+    "ios": ""
+  },
+  "featured": false,
+  "order": 5
+}

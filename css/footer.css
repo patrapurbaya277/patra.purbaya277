@@ -1,0 +1,46 @@
+/* ==========================================
+   FOOTER & MISCELLANEOUS
+   ========================================== */
+footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--gray-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive utilities */
+@media (max-width: 767.98px) {
+    .section-padding {
+        padding: 80px 0;
+    }
+}
+
+/* Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .particles-container,
+    .cursor-dot,
+    .cursor-outline,
+    .loading-overlay,
+    .preloader {
+        display: none !important;
+    }
+    
+    body {
+        background-color: white;
+        color: black !important;
+    }
+}
