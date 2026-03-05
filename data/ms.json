@@ -221,6 +221,22 @@
                 {
                     "name": "Burp Suite",
                     "level": 70
+                },
+                {
+                    "name": "Next.js",
+                    "level": 70
+                },
+                {
+                    "name": "Vue.js",
+                    "level": 70
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": 70
+                },
+                {
+                    "name": "Google Cloud & AI",
+                    "level": 70
                 }
             ]
         },
@@ -236,7 +252,7 @@
             ]
         },
         "cvButton": "Muat Turun CV",
-        "cvLink": "https://drive.google.com/file/d/1b0aohDwX7fyBzxDnljo3LCR3AKWOqryL/view"
+        "cvLink": "https://drive.google.com/file/d/1K2DaFgGQaaddYvclXiTT7hQL9qPL-bYA/view"
     },
     "contact": {
         "title": "Hubungi Saya",
