@@ -195,6 +195,10 @@
                     "level": 95
                 },
                 {
+                    "name": "Dart",
+                    "level": 85
+                },
+                {
                     "name": "Android",
                     "level": 85
                 },
@@ -224,6 +228,18 @@
                 },
                 {
                     "name": "Next.js",
+                    "level": 70
+                },
+                {
+                    "name": "Node.js",
+                    "level": 85
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 70
+                },
+                {
+                    "name": "Typescript",
                     "level": 70
                 },
                 {

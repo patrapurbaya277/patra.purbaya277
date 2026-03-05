@@ -195,6 +195,10 @@
                     "level": 95
                 },
                 {
+                    "name": "Dart",
+                    "level": 85
+                },
+                {
                     "name": "Android",
                     "level": 85
                 },
@@ -223,20 +227,32 @@
                     "level": 70
                 },
                 {
-                  "name": "Next.js",
-                  "level": 70
+                    "name": "Next.js",
+                    "level": 70
                 },
                 {
-                  "name": "Vue.js",
-                  "level": 70
+                    "name": "Node.js",
+                    "level": 85
                 },
                 {
-                  "name": "PostgreSQL",
-                  "level": 70
+                    "name": "JavaScript",
+                    "level": 70
                 },
                 {
-                  "name": "Google Cloud & AI",
-                  "level": 70
+                    "name": "Typescript",
+                    "level": 70
+                },
+                {
+                    "name": "Vue.js",
+                    "level": 70
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": 70
+                },
+                {
+                    "name": "Google Cloud & AI",
+                    "level": 70
                 }
             ]
         },
